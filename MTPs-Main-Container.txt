@@ -1,1 +1,1 @@
-http://PC-Hugo:7778/acc
+http://PC-Hugo.lan:7778/acc

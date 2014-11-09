@@ -18,9 +18,7 @@ import jade.domain.FIPAException;
 public class PresenterAgent extends Agent{
 
 	private QuestionsDatabase questions = new QuestionsDatabase();
-
 	private ArrayList<AID> players = new ArrayList<AID>();
-	
 	private int playerTurn = 0;
 	private Question actualQuestion = null;
 	
@@ -58,7 +56,7 @@ public class PresenterAgent extends Agent{
 				e1.printStackTrace();
 			}
 		    
-		    System.out.println("PRESENTER SENDING " + out.toString());
+		    //System.out.println("PRESENTER SENDING " + out.toString());
 		    
 			msg.setContent(out.toString());
 			send(msg);
@@ -71,7 +69,7 @@ public class PresenterAgent extends Agent{
 				//verificar se a resposta veio do player correto
 				if(receiveMsg.getSender().equals(players.get(playerTurn))){
 					String playerAnswer = receiveMsg.getContent();
-					System.out.println("recebi " + playerAnswer);
+					System.out.println(getLocalName() + " - recebi resposta " + playerAnswer);
 					
 					
 					ACLMessage replyAnswer = receiveMsg.createReply();
@@ -85,7 +83,7 @@ public class PresenterAgent extends Agent{
 						replyAnswer.setContent("Wrong Answer! The correct answer was: " + actualQuestion.getCorrectAnswer());  
 					}
 
-					System.out.println("PRESENTER SENDING: " + replyAnswer.getContent());
+					//System.out.println("PRESENTER SENDING: " + replyAnswer.getContent());
 					send(replyAnswer);
 					
 					round++;
@@ -98,7 +96,7 @@ public class PresenterAgent extends Agent{
 
 		// método done
 		public boolean done() {
-			return round==2;
+			return round==1;
 		}
 
 	}   // fim da classe PingPongBehaviour

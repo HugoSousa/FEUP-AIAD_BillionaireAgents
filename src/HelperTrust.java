@@ -11,6 +11,9 @@ public class HelperTrust {
 	}
 	
 	public Double getTrustByCategory(String s){
+		if(trustByCategory.get(s) == null)
+			return new Double(0.0);
+		
 		return trustByCategory.get(s);
 	}
 	

@@ -20,7 +20,8 @@ import jade.domain.FIPAException;
 
 public class PlayerAgent extends Agent{
 
-	private HashMap<AID, HelperTrust> trust = new HashMap<AID, HelperTrust>();
+	private HashMap<AID, FIREPlayerTrust> trust = new HashMap<AID, FIREPlayerTrust>();
+	private ArrayList<AID> players = new ArrayList<AID>();
 
 	// classe do behaviour
 	class PlayerBehaviour extends SimpleBehaviour {
@@ -38,7 +39,7 @@ public class PlayerAgent extends Agent{
 			if(msg.getPerformative() == ACLMessage.QUERY_REF) {
 				//pergunta do apresentador
 				
-				System.out.println(getLocalName() + ": recebi " + msg.getContent());
+				System.out.println(getLocalName() + "- recebi pergunta:" + msg.getContent());
 				
 				JSONParser parser=new JSONParser();
 				Map obj;
@@ -56,6 +57,59 @@ public class PlayerAgent extends Agent{
 					e.printStackTrace();
 				}
 				
+				//perguntar tambem aos outros participantes o que acham daquele helper nesta categoria
+				System.out.println("PERGUNTAR A OPINIAO A " + players.size() + " JOGADORES");
+				ACLMessage playerMsg = new ACLMessage(ACLMessage.REQUEST);
+				for(AID p: players)
+					playerMsg.addReceiver(p);
+			    
+			    playerMsg.setContent(category);
+				send(playerMsg);
+				
+				//bloquear o numero de vezes igual ao numero de players?
+				for(int i=0; i < players.size(); i++){
+					ACLMessage playerFeedbackMsg = blockingReceive();
+					
+					System.out.println("RECEBI FEEDBACK PLAYER");
+					System.out.println(playerFeedbackMsg.getContent());
+					
+					try {
+						obj = (Map)parser.parse(playerFeedbackMsg.getContent());
+						
+						for (Object key : obj.keySet()) {
+						    String helperName = (String)key;
+						    
+						    String[] values = ((String)obj.get(key)).split("/"); 
+						    int positiveAnswers = Integer.parseInt(values[0]);
+						    int totalAnswers =  Integer.parseInt(values[1]);
+						    System.out.println("AHHH " + helperName + " " + positiveAnswers + " / " + totalAnswers);
+							
+						    //devia usar-se o AID diretamente
+						    for (AID helperKey : trust.keySet()) {
+							    if(helperKey.getLocalName().equals(helperName)){
+							    	FIREFeedbackInfo combineFeedback = trust.get(helperKey).getInfoByCategory(category);
+							    	System.out.println("COMBINE FEEDBACK " + combineFeedback);
+							    	if(combineFeedback == null && totalAnswers > 0){
+							    		FIREFeedbackInfo newInfo = new FIREFeedbackInfo(positiveAnswers, totalAnswers);
+							    		FIREPlayerTrust newTrust = new FIREPlayerTrust();
+							    		newTrust.addCategory(category, newInfo);
+							    	}
+							    	else if(combineFeedback != null){
+							    		combineFeedback.setPositiveAnswers(combineFeedback.getPositiveAnswers() + positiveAnswers);
+							    		combineFeedback.setTotalAnswers(combineFeedback.getTotalAnswers() + totalAnswers);
+							    	}
+							    }
+							}
+						}
+					} catch (ParseException e) {
+						e.printStackTrace();
+					}
+				}
+				
+				
+				//COMBINAR A AJUDA DOS OUTROS PLAYERS E A PROPRIA CONFIANÇA
+				//VER QUAL O MELHOR
+				
 				ArrayList<AID> best = new ArrayList<AID>();
 				for (AID key : trust.keySet()) {
 				    Double maxTrustHelper = new Double(-1.0);
@@ -70,6 +124,7 @@ public class PlayerAgent extends Agent{
 			    	}
 				}
 				
+				
 				System.out.println("E POSSIVEL ESCOLHER ENTRE " + best.size() + " HELPERS");
 				//se ha mais que um helper com mesma pontuação, escolher um aleatorio
 				Random rand = new Random();
@@ -80,7 +135,7 @@ public class PlayerAgent extends Agent{
 				//System.out.println("going to ask help to "+ best.getLocalName());
 				
 		
-				//perguntar aos ajudantes
+				//perguntar ao ajudante
 				ACLMessage helpMsg = new ACLMessage(ACLMessage.QUERY_REF);
 				helpMsg.addReceiver(selectedHelper);
 				
@@ -93,7 +148,7 @@ public class PlayerAgent extends Agent{
 					obj2.writeJSONString(out);
 				} catch (IOException e1) {
 					e1.printStackTrace();
-				}
+				}		
 				
 				//enviar questão e respostas possiveis
 				helpMsg.setContent(out.toString());
@@ -101,15 +156,15 @@ public class PlayerAgent extends Agent{
 				
 				ACLMessage helperAnswer = blockingReceive();
 				if(helperAnswer.getPerformative() == ACLMessage.INFORM)
-				System.out.println("RECEIVED FROM HELPER: " + helperAnswer.getContent());
+				System.out.println(getLocalName() + " - recebi " + helperAnswer.getContent());
 				//System.out.println("SENDING TO HELPER " + selectedHelper.getLocalName() + ":" + helpMsg.getContent());
 				
-				//perguntar tambem aos outros participantes o que acham daquele helper nesta categoria
+				
 				
 				//enviar resposta
 				ACLMessage reply = msg.createReply();
 				reply.setPerformative(ACLMessage.INFORM_REF);
-				reply.setContent(helperAnswer.getContent()); //esta a enviar "resposta certa" ou "resposta errada"
+				reply.setContent(helperAnswer.getContent());
 				send(reply);
 				
 
@@ -120,6 +175,39 @@ public class PlayerAgent extends Agent{
 
 				//comparar se respondi bem/mal, fazer calculos necessarios relativamente a confiança dos helpers
 
+			}
+			else if(msg.getPerformative() == ACLMessage.REQUEST){
+				//feedback de um player
+				String category = msg.getContent();
+				
+				HashMap<AID, FIREFeedbackInfo> feedback = new HashMap<AID, FIREFeedbackInfo>();
+				for (AID key : trust.keySet()) {
+					FIREFeedbackInfo ffi = trust.get(key).getInfoByCategory(category);
+					if(ffi != null)
+						feedback.put(key, ffi);
+					else
+						feedback.put(key, new FIREFeedbackInfo(0,0));
+				}
+				System.out.println("AHHHHHHHHHHHHHH VOU ENVIAR " + feedback);
+				ACLMessage feedbackMsg = msg.createReply();
+				feedbackMsg.setPerformative(ACLMessage.INFORM);				
+							    
+			    JSONObject obj = new JSONObject();
+			    for (AID key : feedback.keySet()) {
+			    	obj.put(key.getLocalName(), feedback.get(key).toString());
+				}
+			    
+			    StringWriter out = new StringWriter();
+			    try {
+					obj.writeJSONString(out);
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			    
+			    System.out.println("HEY" + out.toString());
+			    feedbackMsg.setContent(out.toString());
+				send(feedbackMsg);
+				
 			}
 
 		}
@@ -152,25 +240,7 @@ public class PlayerAgent extends Agent{
 		PlayerBehaviour b = new PlayerBehaviour(this);
 		addBehaviour(b);
 
-		// toma a iniciativa se for agente "pong"
-		/*
-	      if(tipo.equals("pong")) {
-	         // pesquisa DF por agentes "ping"
-	         DFAgentDescription template = new DFAgentDescription();
-	         ServiceDescription sd1 = new ServiceDescription();
-	         sd1.setType("Agente ping");
-	         template.addServices(sd1);
-	         try {
-	            DFAgentDescription[] result = DFService.search(this, template);
-	            // envia mensagem "pong" inicial a todos os agentes "ping"
-	            ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-	            for(int i=0; i<result.length; ++i)
-	               msg.addReceiver(result[i].getName());
-	            msg.setContent("pong");
-	            send(msg);
-	         } catch(FIPAException e) { e.printStackTrace(); }
-	      }
-		 */
+		//encontrar os ajudantes
 
 		DFAgentDescription template = new DFAgentDescription();
 		ServiceDescription sd1 = new ServiceDescription();
@@ -182,13 +252,28 @@ public class PlayerAgent extends Agent{
 			DFAgentDescription[] result = DFService.search(this, template);
 			//AID[] agents = new AID[result.length];
 			for (int i=0; i<result.length; i++){
-				trust.put(result[i].getName(), new HelperTrust());
+				trust.put(result[i].getName(), new FIREPlayerTrust());
 				//System.out.println("HELPER " + i + " - " + result[i].getName());
 			}
 			
 
 		} catch(FIPAException e) { e.printStackTrace(); }
+		
+		
+		//encontrar os outros jogadores		
+		sd1.setType("player");
+		template.addServices(sd1);
+		try {
+			DFAgentDescription[] result = DFService.search(this, template);
+			//AID[] agents = new AID[result.length];
+			for (int i=0; i<result.length; i++){
+				
+				if(!result[i].getName().equals(getAID())){
+					players.add(result[i].getName());
+				}
+			}
 
+		} catch(FIPAException e) { e.printStackTrace(); }
 
 	}   // fim do metodo setup
 
