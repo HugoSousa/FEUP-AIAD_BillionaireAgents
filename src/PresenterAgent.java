@@ -1,19 +1,18 @@
+import jade.core.AID;
+import jade.core.Agent;
+import jade.core.behaviours.SimpleBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAException;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.lang.acl.ACLMessage;
+
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Random;
 
 import org.json.simple.JSONObject;
-
-import jade.core.*;
-import jade.core.behaviours.*;
-import jade.lang.acl.ACLMessage;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
 
 public class PresenterAgent extends Agent{
 
@@ -41,7 +40,7 @@ public class PresenterAgent extends Agent{
 			Random rand = new Random();
 		    int randomQuestion = rand.nextInt(questions.size());
 		    actualQuestion = questions.get(randomQuestion);
-		    questions.remove(actualQuestion);
+		    //questions.remove(actualQuestion);
 		    
 		    JSONObject obj = new JSONObject();
 		    obj.put("question", actualQuestion.getText());
@@ -77,10 +76,10 @@ public class PresenterAgent extends Agent{
 					//responder certo/errado 
 		            
 					if(playerAnswer.equals(actualQuestion.getCorrectAnswer())){
-						replyAnswer.setContent("Correct Answer. Congratulations!");
+						replyAnswer.setContent("Correct");
 					}
 					else{
-						replyAnswer.setContent("Wrong Answer! The correct answer was: " + actualQuestion.getCorrectAnswer());  
+						replyAnswer.setContent("Wrong");  
 					}
 
 					//System.out.println("PRESENTER SENDING: " + replyAnswer.getContent());
@@ -96,7 +95,7 @@ public class PresenterAgent extends Agent{
 
 		// método done
 		public boolean done() {
-			return round==1;
+			return round==20;
 		}
 
 	}   // fim da classe PingPongBehaviour

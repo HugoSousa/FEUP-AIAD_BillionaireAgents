@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Random;
 
 
 public class FIREPlayerTrust {
@@ -10,21 +9,17 @@ public class FIREPlayerTrust {
 	}
 
 	public FIREFeedbackInfo getInfoByCategory(String s){
+		
+		if(trustByCategory.get(s) == null){
+			trustByCategory.put(s, new FIREFeedbackInfo(0, 0));
+		}
+		
 		return trustByCategory.get(s);
+
 	}
 	
-	public double getTrustByCategory(String s){
-		FIREFeedbackInfo ffi = trustByCategory.get(s);
-		
-		if(ffi == null)
-			return 0.0;
-		
-		double trust = ffi.getPositiveAnswers()/ffi.getTotalAnswers();
 
-		return trust;
-	}
-
-	public void addCategory(String category, boolean positiveAnswer){
+	public void addNewAnswer(String category, boolean positiveAnswer){
 		FIREFeedbackInfo ffi = trustByCategory.get(category);
 		
 		if(ffi == null){

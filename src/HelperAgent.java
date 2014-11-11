@@ -1,17 +1,17 @@
+import jade.core.Agent;
+import jade.core.behaviours.SimpleBehaviour;
+import jade.domain.DFService;
+import jade.domain.FIPAException;
+import jade.domain.FIPAAgentManagement.DFAgentDescription;
+import jade.domain.FIPAAgentManagement.ServiceDescription;
+import jade.lang.acl.ACLMessage;
+
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Random;
 
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
-import jade.core.*;
-import jade.core.behaviours.*;
-import jade.lang.acl.ACLMessage;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.DFService;
-import jade.domain.FIPAException;
 
 // classe do agente
 public class HelperAgent extends Agent {
@@ -82,7 +82,7 @@ public class HelperAgent extends Agent {
 	// método setup
 	protected void setup() {
 		
-		knowledge.addCategory("desporto", 0.9);
+		knowledge.addCategory("desporto", 0.5);
 		knowledge.addCategory("ciência", 0.1);
 		knowledge.addCategory("literatura", 0.4);
 		knowledge.addCategory("cultura geral", 0.2);

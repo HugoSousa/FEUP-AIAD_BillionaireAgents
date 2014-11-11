@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ï»¿import java.util.ArrayList;
 import java.util.Arrays;
 
 
@@ -7,9 +7,9 @@ public class QuestionsDatabase {
 	
 	public QuestionsDatabase(){
 		Question a = new Question("teste", new ArrayList<String>(Arrays.asList("a", "b", "c", "d")), 2, "desporto", 3);
-		Question b = new Question("teste2", new ArrayList<String>(Arrays.asList("a1", "b1", "c1", "d1")), 1, "cultura geral", 3);
-		Question c = new Question("teste3", new ArrayList<String>(Arrays.asList("a2", "b2", "c2", "d2")), 3, "literatura", 3);
-		Question d = new Question("teste4", new ArrayList<String>(Arrays.asList("a3", "b3", "c3", "d3")), 0, "ciência", 3);
+		Question b = new Question("teste2", new ArrayList<String>(Arrays.asList("a1", "b1", "c1", "d1")), 1, "desporto", 3);
+		Question c = new Question("teste3", new ArrayList<String>(Arrays.asList("a2", "b2", "c2", "d2")), 3, "desporto", 3);
+		Question d = new Question("teste4", new ArrayList<String>(Arrays.asList("a3", "b3", "c3", "d3")), 0, "desporto", 3);
 		Question e = new Question("teste5", new ArrayList<String>(Arrays.asList("a4", "b4", "c4", "d4")), 0, "desporto", 3);
 	
 		questions.add(a);
