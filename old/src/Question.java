@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Random;
 
 
 public class Question {
@@ -35,16 +34,5 @@ public class Question {
 	
 	public ArrayList<String> getAnswerOptions(){
 		return answers;
-	}
-
-	public String getWrongAnswer() {
-		int randomInt = -1;
-		do {
-			Random rand = new Random();
-			 randomInt = rand.nextInt(4);
-			
-		} while (randomInt == correctAnswer);
-			return answers.get(randomInt);
-		
 	}
 }

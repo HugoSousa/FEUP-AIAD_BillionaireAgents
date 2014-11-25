@@ -1,1 +1,1 @@
-( ap-description  :name "172.30.54.115:1099/JADE" :ap-services (set ( ap-service  :name fipa.mts.mtp.http.std :type fipa.mts.mtp.http.std :addresses (sequence http://Maciel-Toshiba:7778/acc))))
+( ap-description  :name "172.30.38.60:1099/JADE" :ap-services (set ( ap-service  :name fipa.mts.mtp.http.std :type fipa.mts.mtp.http.std :addresses (sequence http://Maciel-Toshiba:7778/acc))))

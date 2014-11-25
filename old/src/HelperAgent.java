@@ -7,11 +7,15 @@ import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 // classe do agente
-@SuppressWarnings("serial")
 public class HelperAgent extends Agent {
+
 	private QuestionsDatabase questions = new QuestionsDatabase();
 	private HelperTrust knowledge = new HelperTrust();
 
@@ -30,34 +34,41 @@ public class HelperAgent extends Agent {
 			if(msg.getPerformative() == ACLMessage.QUERY_REF) {
 				System.out.println(getLocalName() + " - recebi " + msg.getContent());
 
-				answerPlayer(msg);
+				JSONParser parser=new JSONParser();
+				Map obj;
+				String question = null;
+				ArrayList<String> options = null;
+				try {
+					obj = (Map)parser.parse(msg.getContent());
+					
+					question = (String)obj.get("question");
+					options = (ArrayList<String>)obj.get("options");
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
+				
+				String category = questions.getCategory(question);
+				boolean answer = knowledge.getAnswer(category);
+				
+				// cria resposta
+				ACLMessage reply = msg.createReply();
+				// preenche conteúdo da mensagem
+				if(answer){
+					reply.setContent(questions.getCorrectAnswer(question));
+				}
+				else{
+					//gerar numero aleatorio e escolher das options
+					Random rand = new Random();
+					int randomInt = rand.nextInt(options.size());
+					reply.setContent(options.get(randomInt));
+				}
+				
+				//System.out.println("HELPER SENT: " + reply.getContent());
+				// envia mensagem
+				reply.setPerformative(ACLMessage.INFORM);
+				send(reply);
 			}
 
-		}
-
-		private void answerPlayer(ACLMessage msg) {
-			HashMap<String, Object> fields = Utils.JSONDecode(msg.getContent());
-			String question = (String) fields.get("question");
-			@SuppressWarnings("unchecked")
-			ArrayList<String> options = (ArrayList<String>)fields.get("options");
-			
-			String category = questions.getCategory(question);
-			boolean answer = knowledge.getAnswer(category);
-			String correctAnswer = null;
-			
-			ACLMessage reply = msg.createReply();
-
-			if(answer){
-				reply.setContent(questions.getCorrectAnswer(question));
-			}
-			else{
-				reply.setContent(questions.getWrongAnswer(question));
-			}
-			
-			//System.out.println("HELPER SENT: " + reply.getContent());
-			// envia mensagem
-			reply.setPerformative(ACLMessage.INFORM);
-			send(reply);
 		}
 
 		// método done
@@ -65,13 +76,13 @@ public class HelperAgent extends Agent {
 			return false;
 		}
 
-	}
+	}   // fim da classe PingPongBehaviour
 
 
 	// método setup
 	protected void setup() {
 		
-		knowledge.addCategory("desporto",0.9);
+		knowledge.addCategory("desporto", 0.5);
 		knowledge.addCategory("ciência", 0.1);
 		knowledge.addCategory("literatura", 0.4);
 		knowledge.addCategory("cultura geral", 0.2);

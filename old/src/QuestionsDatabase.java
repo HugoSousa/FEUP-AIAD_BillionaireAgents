@@ -1,4 +1,5 @@
 ﻿import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,8 +11,8 @@ public class QuestionsDatabase {
 	
 	private String FILENAME = "questions.txt";
 	private ArrayList<Question> questions = new ArrayList<Question>();
-	//private String[] categories = new String[] {"desporto", "cultura", "arte", "historia", "cinema"};
-	private String[] categories = new String[] {"desporto"}; // TODO mudar isto
+	private String[] categories = new String[] {"desporto", "cultura", "arte", "historia", "cinema"};
+	
 	public QuestionsDatabase(){
 		
 		try {
@@ -55,7 +56,14 @@ public class QuestionsDatabase {
 		return null;
 	}
 
+	public String getCorrectAnswer(String question){
+		for(int i=0; i < questions.size(); i++){
+			if(questions.get(i).getText().equals(question))
+				return questions.get(i).getCorrectAnswer();
+		}
 
+		return null;
+	}
 
 	public void readFile(String filename) throws IOException{
 		BufferedReader br = new BufferedReader(new FileReader(filename));
@@ -80,22 +88,5 @@ public class QuestionsDatabase {
 		br.close();
 
 
-	}
-	
-	public String getCorrectAnswer(String question){
-		for(int i=0; i < questions.size(); i++){
-			if(questions.get(i).getText().equals(question))
-				return questions.get(i).getCorrectAnswer();
-		}
-
-		return null;
-	}
-	public String getWrongAnswer(String question) {
-		for(int i=0; i < questions.size(); i++){
-			if(questions.get(i).getText().equals(question))
-				return questions.get(i).getWrongAnswer();
-		}
-
-		return null;
 	}
 }

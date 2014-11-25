@@ -7,12 +7,13 @@ import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
+import java.io.IOException;
+import java.io.StringWriter;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Random;
 
+import org.json.simple.JSONObject;
 
-@SuppressWarnings("serial")
 public class PresenterAgent extends Agent{
 
 	private QuestionsDatabase questions = new QuestionsDatabase();
@@ -41,17 +42,22 @@ public class PresenterAgent extends Agent{
 		    actualQuestion = questions.get(randomQuestion);
 		    //questions.remove(actualQuestion);
 		    
-		    HashMap<String, Object> question = new HashMap<String, Object>();
-		    question.put("question", actualQuestion.getText());
-		    question.put("category", actualQuestion.getCategory());
-		    question.put("difficulty", new Integer(actualQuestion.getDifficulty()));
-		    question.put("options", actualQuestion.getAnswerOptions());
-		    String out = Utils.JSONEncode(question);
+		    JSONObject obj = new JSONObject();
+		    obj.put("question", actualQuestion.getText());
+		    obj.put("category", actualQuestion.getCategory());
+		    obj.put("difficulty", new Integer(actualQuestion.getDifficulty()));
+		    obj.put("options", actualQuestion.getAnswerOptions());
 		    
+		    StringWriter out = new StringWriter();
+		    try {
+				obj.writeJSONString(out);
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
 		    
 		    //System.out.println("PRESENTER SENDING " + out.toString());
 		    
-			msg.setContent(out);
+			msg.setContent(out.toString());
 			send(msg);
 			
 			ACLMessage receiveMsg = blockingReceive();
@@ -89,7 +95,7 @@ public class PresenterAgent extends Agent{
 
 		// método done
 		public boolean done() {
-			return round==500;
+			return round==20;
 		}
 
 	}   // fim da classe PingPongBehaviour
@@ -97,6 +103,15 @@ public class PresenterAgent extends Agent{
 
 	// método setup
 	protected void setup() {		
+		// obtém argumentos
+		/*
+		Object[] args = getArguments();
+		if(args != null && args.length > 0) {
+			tipo = (String) args[0];
+		} else {
+			System.out.println("Não especificou o tipo");
+		}
+		*/
 		
 		// regista agente no DF
 		DFAgentDescription dfd = new DFAgentDescription();
@@ -125,6 +140,7 @@ public class PresenterAgent extends Agent{
 		
 		try {
 			DFAgentDescription[] result = DFService.search(this, template);
+			//AID[] agents = new AID[result.length];
 			for (int i=0; i<result.length; i++){
 				System.out.println("PLAYER " + i + " - " + result[i].getName());
 				players.add(result[i].getName());
@@ -132,6 +148,37 @@ public class PresenterAgent extends Agent{
 
 		} catch(FIPAException e) { e.printStackTrace(); }
 		
+		/*
+		//envia pergunta ao 1o player
+		ACLMessage msg = new ACLMessage(ACLMessage.QUERY_REF);
+		msg.addReceiver(players.get(playerTurn));
+		
+		//escolher pergunta aleatoria
+		Random rand = new Random();
+	    int randomQuestion = rand.nextInt(questions.size());
+	    actualQuestion = questions.get(randomQuestion);
+	    questions.remove(actualQuestion);
+	    
+	    JSONObject obj = new JSONObject();
+	    obj.put("question", actualQuestion.getText());
+	    obj.put("category", actualQuestion.getCategory());
+	    obj.put("difficulty", new Integer(actualQuestion.getDifficulty()));
+	    
+	    StringWriter out = new StringWriter();
+	    try {
+			obj.writeJSONString(out);
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+	    
+	    System.out.println("PRESENTER SENDING " + out.toString());
+	    
+		msg.setContent(out.toString());
+		send(msg);
+		*/
+		
+		
+
 	}   // fim do metodo setup
 
 	// método takeDown

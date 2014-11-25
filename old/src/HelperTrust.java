@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class HelperTrust {
 	//to the Helper, the Double means the knowledge (between 0 and 1)
+	//to the Player, the Double means the trust on some category (between -1 and 1)
 	private HashMap<String, Double> trustByCategory;
 	
 	public HelperTrust(){

@@ -3,7 +3,6 @@ import jade.wrapper.ContainerController;
 import jade.wrapper.StaleProxyException;
 
 
-@SuppressWarnings("serial")
 public class MainSetup extends Agent{
 
 	protected void setup() {
@@ -13,9 +12,9 @@ public class MainSetup extends Agent{
 			cc.createNewAgent("Helper2", "HelperAgent", null).start();
 			cc.createNewAgent("Helper3", "HelperAgent", null).start();
 			
-			cc.createNewAgent("Player1", "FIREPlayerAgent", null).start();
-			cc.createNewAgent("Player2", "FIREPlayerAgent", null).start();
-			cc.createNewAgent("Player3", "FIREPlayerAgent", null).start();
+			cc.createNewAgent("Player1", "PlayerAgent", null).start();
+			cc.createNewAgent("Player2", "PlayerAgent", null).start();
+			cc.createNewAgent("Player3", "PlayerAgent", null).start();
 			
 			cc.createNewAgent("Apresentador", "PresenterAgent", null).start();
 			
