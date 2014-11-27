@@ -11,12 +11,11 @@ import java.util.Set;
 @SuppressWarnings("serial")
 public class FIREPlayerAgent extends GenericPlayerAgent{
 
-	HashMap<HelperCategoryKey, ArrayList<Double>> interactionTrust = new HashMap<HelperCategoryKey, ArrayList<Double>>();
+	private HashMap<HelperCategoryKey, ArrayList<Double>> interactionTrust = new HashMap<HelperCategoryKey, ArrayList<Double>>();
 	private int THRESHOLD_IT = 5;
 	private int THRESHOLD_W = 2;
 	private int NEWCOMER_THRESHOLD = 5;
-	AID lastHelper;
-	String lastCategory;
+
 	
 	public FIREPlayerAgent(){
 		super();
@@ -191,7 +190,7 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 				for (Double a : helperRatings) {
 					mean+= a;
 				}
-				mean /=  (double) helperRatings.size();
+				mean /= (double) helperRatings.size();
 				
 				double trustRating = mean;
 				sendInfo.put(helper.getLocalName(), new Double(trustRating));
@@ -216,7 +215,7 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 
 	@Override
 	protected void lastAnswerIs(boolean result) {
-		double lastAnswer, newRating;
+		double lastAnswer;
 		
 		if (result)
 			lastAnswer = 1;

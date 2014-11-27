@@ -89,7 +89,7 @@ public class PresenterAgent extends Agent{
 
 		// método done
 		public boolean done() {
-			return round==500;
+			return round == 50;
 		}
 
 	}   // fim da classe PingPongBehaviour

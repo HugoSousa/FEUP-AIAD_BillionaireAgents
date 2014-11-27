@@ -21,7 +21,6 @@ public class HelperTrust {
 	}
 	
 	public boolean getAnswer(String category){
-		boolean luckyBet = false;
 		Double knowledge;
 		knowledge = trustByCategory.get(category);
 		

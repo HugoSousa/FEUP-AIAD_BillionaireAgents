@@ -6,7 +6,7 @@ import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.HashMap;
 
 // classe do agente
@@ -38,12 +38,11 @@ public class HelperAgent extends Agent {
 		private void answerPlayer(ACLMessage msg) {
 			HashMap<String, Object> fields = Utils.JSONDecode(msg.getContent());
 			String question = (String) fields.get("question");
-			@SuppressWarnings("unchecked")
-			ArrayList<String> options = (ArrayList<String>)fields.get("options");
+			//@SuppressWarnings("unchecked")
+			//ArrayList<String> options = (ArrayList<String>)fields.get("options");
 			
 			String category = questions.getCategory(question);
 			boolean answer = knowledge.getAnswer(category);
-			String correctAnswer = null;
 			
 			ACLMessage reply = msg.createReply();
 
@@ -71,7 +70,7 @@ public class HelperAgent extends Agent {
 	// método setup
 	protected void setup() {
 		
-		knowledge.addCategory("desporto",0.9);
+		knowledge.addCategory("desporto",0.7);
 		knowledge.addCategory("ciência", 0.1);
 		knowledge.addCategory("literatura", 0.4);
 		knowledge.addCategory("cultura geral", 0.2);

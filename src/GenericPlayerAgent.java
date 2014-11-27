@@ -17,6 +17,9 @@ public abstract class GenericPlayerAgent extends Agent{
 	protected ArrayList<AID> players = new ArrayList<AID>();
 	protected ArrayList<AID> helpers = new ArrayList<AID>();
 
+	protected AID lastHelper;
+	protected String lastCategory;
+	
 	// classe do behaviour
 	class GenericBehaviour extends SimpleBehaviour {
 
@@ -146,7 +149,8 @@ public abstract class GenericPlayerAgent extends Agent{
 	}
 
 	protected abstract String processQuestion(String category, String question, ArrayList<String> answerOptions);
-	protected abstract void lastAnswerIs(boolean result) ;
+	protected abstract void lastAnswerIs(boolean result);
+	protected abstract void answerFeedback(ACLMessage msg);
 
 	protected HashMap<AID, ArrayList<Double>> askOtherPlayers(String category) {
 		ACLMessage msg = new ACLMessage(ACLMessage.REQUEST);
@@ -177,10 +181,7 @@ public abstract class GenericPlayerAgent extends Agent{
 			System.out.println(playerFeedbackMsg.getSender().getLocalName() + ": NAO TEM INFO DE NENHUM HELPER");
 		}
 		else{
-			//formato: helpername: rating / respostas
-			//TODO
-			//FAZER CALCULOS DA INTERAÇAO COM OS OUTROS JOGADORES
-			HashMap<String, Object> helperRatingsFromPlayer= Utils.JSONDecode(content);
+			HashMap<String, Object> helperRatingsFromPlayer = Utils.JSONDecode(content);
 			
 			for (String helperName: helperRatingsFromPlayer.keySet()) {
 				Double rating = (Double) helperRatingsFromPlayer.get(helperName);
@@ -203,7 +204,7 @@ public abstract class GenericPlayerAgent extends Agent{
 		
 	}
 
-	protected void answerFeedback(ACLMessage msg) {}
+	
 
 	protected String askHelper(AID selectedHelper, String question, ArrayList<String> answerOptions) {
 	HashMap<String, Object> sendInfo = new HashMap<String, Object>();
