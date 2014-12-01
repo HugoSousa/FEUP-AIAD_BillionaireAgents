@@ -13,7 +13,7 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 	private double MAX_ALPHA = 5 * Math.PI / 2;
 	private double POSITIVE_LAMBDA = 1.0;
 	private double NEGATIVE_LAMBDA = -1.5;
-	private double OMEGA = Math.PI / 20; 
+	private double OMEGA = Math.PI / 40; 
 	
 	private HashMap<HelperCategoryKey, Double> interactionTrust = new HashMap<HelperCategoryKey, Double>();
 	
@@ -93,17 +93,45 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 	
 	private AID getBestHelper(HashMap<AID, Double> interactionTrustByHelperCategory, HashMap<AID, ArrayList<Double>> witnessReputationByHelperCategory) {
 
+		//trust final = 0.7 * interaction_trust + 0.3 * witness_reputation
 		HashMap<AID,Double> finalTrust = new HashMap<AID, Double>();
 		
 		for(AID helper: helpers){
 			
+			Double trust = null; 
 			Double it = interactionTrustByHelperCategory.get(helper);
+			ArrayList<Double> wr = witnessReputationByHelperCategory.get(helper);
 			
-			if(it == null){
-				it = new Double(0.0);
+			if(it == null && wr == null){
+				trust = new Double(0.0);
+			}
+			else{
+				if(it == null){
+					//media dos WR
+					double sum = 0;
+					double count = wr.size();
+					for (Double d: wr) {
+						sum += d;
+					}
+					trust = sum / (double) count;
+				}
+				else if(wr == null){
+					trust = it;
+				}
+				else{
+					double sum = 0;
+					double count = wr.size();
+					for (Double d: wr) {
+						sum += d;
+					}
+					double trust_wr = sum / (double) count;
+					
+					trust = 0.7 * it + 0.3 * trust_wr;
+				}
+					
 			}
 			
-			finalTrust.put(helper, it);			
+			finalTrust.put(helper, trust);			
 		}
 		
 		ArrayList<AID> best = new ArrayList<AID>();
@@ -111,13 +139,13 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 		double max = -1;
 		for (HashMap.Entry<AID, Double> entry : finalTrust.entrySet()) {
 		    AID helper = entry.getKey();
-		    Double trust = entry.getValue();
+		    Double trustValue = entry.getValue();
 		    
-		    if (trust.doubleValue() > max) {
+		    if (trustValue.doubleValue() > max) {
 		    	best.clear();
 		    	best.add(helper);
-		    	max = trust.doubleValue();
-		    }else if (trust.doubleValue() == max) {
+		    	max = trustValue.doubleValue();
+		    }else if (trustValue.doubleValue() == max) {
 		    	best.add(helper);
 		    }  		
 		}

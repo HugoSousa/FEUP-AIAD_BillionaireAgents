@@ -13,7 +13,7 @@ public class MainSetup extends Agent{
 			//cc.createNewAgent("Helper2", "HelperAgent", null).start();
 			//cc.createNewAgent("Helper3", "HelperAgent", null).start();
 			
-			cc.createNewAgent("Player1", "SINALPHAPlayerAgent", null).start();
+			cc.createNewAgent("Player1", "BETAPlayerAgent", null).start();
 			//cc.createNewAgent("Player2", "SINALPHAPlayerAgent", null).start();
 			//cc.createNewAgent("Player3", "SINALPHAPlayerAgent", null).start();
 			
