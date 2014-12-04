@@ -30,7 +30,7 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 		HashMap<AID, Double> interactionTrustByHelperCategory = processInteractionTrust(category);
 
 
-		lastHelper = getBestHelper(interactionTrustByHelperCategory, null/*witnessReputationByHelperCategory*/);
+		lastHelper = getBestHelper(interactionTrustByHelperCategory, witnessReputationByHelperCategory);
 		String answer =  super.askHelper(lastHelper, question, answerOptions);
 
 		return answer;

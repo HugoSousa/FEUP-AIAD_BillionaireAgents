@@ -7,6 +7,7 @@ import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -14,9 +15,11 @@ import java.util.HashMap;
 @SuppressWarnings("serial")
 public abstract class GenericPlayerAgent extends Agent{
 
+	protected Logger log;
+	protected int questionCounter = 0;
 	protected ArrayList<AID> players = new ArrayList<AID>();
 	protected ArrayList<AID> helpers = new ArrayList<AID>();
-
+	
 	protected AID lastHelper;
 	protected String lastCategory;
 	
@@ -34,6 +37,7 @@ public abstract class GenericPlayerAgent extends Agent{
 			ACLMessage presenterQuestionMsg = blockingReceive();
 			if(presenterQuestionMsg.getPerformative() == ACLMessage.QUERY_REF) {
 				//pergunta do apresentador
+				questionCounter++;
 				String content = presenterQuestionMsg.getContent();
 				HashMap<String, Object> questionFields = Utils.JSONDecode(content);
 
@@ -45,7 +49,9 @@ public abstract class GenericPlayerAgent extends Agent{
 				System.out.println("CATEGORY: " + category);
 
 				System.out.println(getLocalName() + "- recebi pergunta:" + content);
-
+				log.addToLog("");
+				log.addToLog(questionCounter + " - " + category + " - " + question);
+				
 				String answer = processQuestion(category, question, answerOptions );
 				
 				ACLMessage replyAnswer = presenterQuestionMsg.createReply();
@@ -65,7 +71,8 @@ public abstract class GenericPlayerAgent extends Agent{
 					lastAnswerIs(false);
 					System.out.println(getLocalName() + ": My answer was wrong");
 				}
-				
+				log.writeToFile();
+
 			}
 			else if(presenterQuestionMsg.getPerformative() == ACLMessage.REQUEST){
 				//feedback de um player
@@ -84,9 +91,10 @@ public abstract class GenericPlayerAgent extends Agent{
 
 	// método setup
 	protected void setup() {
-
-		// regista agente no DF
-
+		
+		log = new Logger(getLocalName());
+		
+		// regista agente no DF		
 		DFAgentDescription dfd = new DFAgentDescription();
 		dfd.setName(getAID());
 		ServiceDescription sd = new ServiceDescription();
@@ -169,6 +177,22 @@ public abstract class GenericPlayerAgent extends Agent{
 			ACLMessage playerFeedbackMsg = blockingReceive();
 			processPlayerFeedback(playerFeedbackMsg, HelperRatingsByCategory);
 		}
+		
+		for (AID helperName : helpers) {
+			if (HelperRatingsByCategory.get(helperName) == null) {
+				log.addToLog(helperName.getLocalName() + ": -");
+			}
+			else {
+				
+				String list = helperName.getLocalName() + ": [";
+				for (int i = 0; i < HelperRatingsByCategory.get(helperName).size(); i++) {
+					if (HelperRatingsByCategory.get(helperName).get(i) >= 0) list += " ";
+					list += String.format("%.2f", HelperRatingsByCategory.get(helperName).get(i));
+					if (i != HelperRatingsByCategory.get(helperName).size() -1 ) list+= "; ";
+				}
+				log.addToLog( list + "]");
+			}
+		}
 		return HelperRatingsByCategory;
 		
 	}
@@ -194,13 +218,19 @@ public abstract class GenericPlayerAgent extends Agent{
 				//se nao existe informacao deste helper ainda
 				if(helperRatings == null){
 					helperRatings = new ArrayList<Double>();
+					helperRatings.add(rating);
+					helperRatingsByCategory.put(helperAID, helperRatings);
 				}
-				
-				helperRatings.add(rating);
+				else{
+					helperRatings.add(rating);
+					helperRatingsByCategory.put(helperAID, helperRatings);
+				}
 				
 			}
 			
 		}
+		
+		
 		
 	}
 

@@ -10,12 +10,12 @@ public class MainSetup extends Agent{
 		ContainerController cc = getContainerController();
 		try {
 			cc.createNewAgent("Helper1", "HelperAgent", null).start();
-			//cc.createNewAgent("Helper2", "HelperAgent", null).start();
-			//cc.createNewAgent("Helper3", "HelperAgent", null).start();
+			cc.createNewAgent("Helper2", "HelperAgent", null).start();
+			cc.createNewAgent("Helper3", "HelperAgent", null).start();
 			
-			cc.createNewAgent("Player1", "BETAPlayerAgent", null).start();
-			//cc.createNewAgent("Player2", "SINALPHAPlayerAgent", null).start();
-			//cc.createNewAgent("Player3", "SINALPHAPlayerAgent", null).start();
+			cc.createNewAgent("Player1", "FIREPlayerAgent", null).start();
+			cc.createNewAgent("Player2", "SINALPHAPlayerAgent", null).start();
+			cc.createNewAgent("Player3", "BETAPlayerAgent", null).start();
 			
 			cc.createNewAgent("Apresentador", "PresenterAgent", null).start();
 			

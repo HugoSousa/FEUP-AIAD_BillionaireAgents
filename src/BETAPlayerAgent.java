@@ -10,6 +10,7 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 
 	//private int correctAnswers = 0;
 	//private int wrongAnswers = 0;
+	private double WEIGHT = 1.0;
 	private HashMap<HelperCategoryKey, FeedbackInfo> interactionTrust = new HashMap<HelperCategoryKey, FeedbackInfo>();
 
 	public BETAPlayerAgent(){
@@ -25,32 +26,58 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 
 		HashMap<AID, FeedbackInfo> interactionTrustByHelperCategory = processInteractionTrust(category);
 
-		lastHelper = getBestHelper(interactionTrustByHelperCategory, null/*witnessReputationByHelperCategory*/);
+		lastHelper = getBestHelper(interactionTrustByHelperCategory, witnessReputationByHelperCategory);
 		String answer =  super.askHelper(lastHelper, question, answerOptions);
 
 		return answer;
 	}
 
-	private AID getBestHelper(HashMap<AID, FeedbackInfo> interactionTrustByHelperCategory, Object object) {
+	private AID getBestHelper(HashMap<AID, FeedbackInfo> interactionTrustByHelperCategory, HashMap<AID, ArrayList<Double>> witnessReputationByHelperCategory) {
 
 		HashMap<AID, Double> finalTrust = new HashMap<AID, Double>();
-		
+
 		for(AID helper: helpers){ 
 			FeedbackInfo it = interactionTrustByHelperCategory.get(helper);
-			
+			ArrayList<Double> wr = witnessReputationByHelperCategory.get(helper);
+
+			double r_total = 0.0;
+			double s_total = 0.0;
+			double r_wr = 0.0;
+			double s_wr = 0.0;
+			int n;
 			if(it == null)
-				finalTrust.put(helper, 0.0);
-			else{
-				double r = it.getRating();
-				double s = it.getTotalRatings() - r;
-				
-				double rep = (r - s)/(r + s + 2);
-				
-				System.out.println("REPUTATION: " + rep);
-				
-				finalTrust.put(helper, rep);
+				n = 1;
+			else
+				n = it.getTotalRatings();
+			
+			if(wr != null){
+				for(Double v: wr){
+					r_wr = (WEIGHT * (1.0 + v)) / 2.0;
+					s_wr = (WEIGHT * (1.0 - v)) / 2.0;
+					r_total += r_wr * WEIGHT;
+					s_total += s_wr * WEIGHT;
+				}
 			}
-				
+			
+
+			r_total *= n;
+			s_total *= n;
+
+			double r_final = r_total;
+			double s_final = s_total;
+
+			if(it != null){
+				r_final += WEIGHT * it.getRating();
+				s_final += WEIGHT * ((double)n - it.getRating());
+			}
+
+			double rep = (r_final - s_final)/(r_final + s_final + 2);
+
+			System.out.println("REPUTATION: " + rep);
+			
+			finalTrust.put(helper, rep);
+
+
 		}
 
 		ArrayList<AID> best = new ArrayList<AID>();
@@ -78,10 +105,28 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 		}else
 			selectedHelper = (AID) best.toArray()[0];
 
+		String list = "\n" ;
+		
+		for (HashMap.Entry<AID, Double> entry : finalTrust.entrySet()) {
+			
+			AID helper = entry.getKey();
+			Double trustValue = entry.getValue();
+			list += helper.getLocalName() +": " ;
+			if (trustValue >= 0) 
+				list += " ";
+			list += String.format("%.2f", trustValue);
+			if (selectedHelper == helper) 
+				list += " <<<<<\n";
+			else 
+				list += "\n";
+			
+		}
+		log.addToLog( list);
+		
 
 		System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
 		return selectedHelper;
-		
+
 	}
 
 	private HashMap<AID, FeedbackInfo> processInteractionTrust(String category){
@@ -103,11 +148,11 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 
 	@Override
 	protected void lastAnswerIs(boolean result) {
-		
+
 		HelperCategoryKey key = new HelperCategoryKey(lastHelper, lastCategory);
 		FeedbackInfo lastRating = interactionTrust.get(key);
-		
-		
+
+
 		if(lastRating == null){
 			if(result)
 				interactionTrust.put(key, new FeedbackInfo(1, 1));
@@ -117,20 +162,20 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 		else{
 			double correctRating = lastRating.getRating(); 
 			int totalRatings = lastRating.getTotalRatings();
-			
+
 			if(result)
 				interactionTrust.put(key, new FeedbackInfo(correctRating + 1, totalRatings + 1));
 			else
 				interactionTrust.put(key, new FeedbackInfo(correctRating, totalRatings + 1));
 		}
-			
+
 		System.out.println("INTERACTION TRUST: " + interactionTrust.get(new HelperCategoryKey(lastHelper, lastCategory)));
 
 	}
 
 	@Override
 	protected void answerFeedback(ACLMessage msg) {
-		
+
 		String category = msg.getContent();
 		HashMap<String, Object> sendInfo = new HashMap<String, Object>();
 
@@ -146,12 +191,12 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 			}
 			else{
 				System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + helperRatings.getTotalRatings() + " RATINGS");			
-				
+
 				double r = helperRatings.getRating();
 				double s = helperRatings.getTotalRatings() - r;
-				
+
 				double rep = (r - s)/(r + s + 2);
-				
+
 				sendInfo.put(helper.getLocalName(), new Double(rep));
 			}
 		}

@@ -1,0 +1,171 @@
+
+1 - desporto - The Yangtze River is located in what country?
+Helper3: -
+Helper1: [ 0,08]
+Helper2: -
+
+Helper3:  0,00
+Helper1:  0,03 <<<<<
+Helper2:  0,00
+
+
+2 - desporto - Tofu, a soft, protein-rich food, is made from what?
+Helper3: -
+Helper1: [-0,04]
+Helper2: [ 1,00]
+
+Helper3:  0,00 / 0
+Helper1: -0,26 / 5
+Helper2:  0,33 / 15 <<<<<
+
+
+3 - desporto - Which of these breads is described as a long, wide loaf of white Italian bread?
+Helper3: -
+Helper1: [ 0,04]
+Helper2: [ 1,00]
+
+Helper3:  0,00
+Helper1: -0,24
+Helper2:  0,50 <<<<<
+
+
+4 - desporto - Which of these '80s novels has an unnamed protagonist? 
+Helper3: -
+Helper1: [-1,00;  0,12]
+Helper2: [ 1,00]
+
+Helper3:  0,00
+Helper1: -0,38
+Helper2:  0,33 <<<<<
+
+
+5 - desporto - The famous Delano Hotel is located in which of these cities?
+Helper3: -
+Helper1: [-1,00;  0,20]
+Helper2: [ 1,00]
+
+Helper3:  0,00
+Helper1: -0,36
+Helper2:  0,50 <<<<<
+
+
+6 - desporto - The title of the 1984 movie "Romancing the Stone" refers to what gemstone?
+Helper3: [ 1,00]
+Helper1: [-1,00;  0,27]
+Helper2: [ 1,00]
+
+Helper3:  0,33
+Helper1: -0,35
+Helper2:  0,60 <<<<<
+
+
+7 - desporto - Scholars or intellectuals are said to reside in what kind of tower?
+Helper3: [ 1,00]
+Helper1: [-1,00;  0,16]
+Helper2: [ 1,00]
+
+Helper3:  0,33
+Helper1: -0,37
+Helper2:  0,67 <<<<<
+
+
+8 - desporto - The Shenandoah River is located in which of these U.S. states?
+Helper3: [ 1,00]
+Helper1: [ 0,00;  0,23]
+Helper2: [ 1,00]
+
+Helper3:  0,33
+Helper1: -0,15
+Helper2:  0,57 <<<<<
+
+
+9 - desporto - What part of a basil plant is usually used as a spice?
+Helper3: [ 1,00]
+Helper1: [ 0,00;  0,31]
+Helper2: [ 1,00]
+
+Helper3:  0,33
+Helper1: -0,14
+Helper2:  0,50 <<<<<
+
+
+10 - desporto - Which of these is defined as "a small, owner-operated business"?
+Helper3: [ 1,00]
+Helper1: [ 0,00;  0,20]
+Helper2: [ 0,50]
+
+Helper3:  0,33 <<<<<
+Helper1: -0,16
+Helper2:  0,22
+
+
+11 - desporto - In "The Terminal," Tom Hanks's character is stranded in an airport in what city?
+Helper3: [ 1,00]
+Helper1: [ 0,00;  0,08]
+Helper2: [ 0,50]
+
+Helper3:  0,50 <<<<<
+Helper1: -0,18
+Helper2:  0,22
+
+
+12 - desporto - After New York City, what U.S. city is the second largest in population?
+Helper3: [ 1,00]
+Helper1: [ 0,33;  0,16]
+Helper2: [ 0,50]
+
+Helper3:  0,67 <<<<<
+Helper1: -0,10
+Helper2:  0,22
+
+
+13 - desporto - Which of these words is not synonymous with the others?
+Helper3: [ 1,00]
+Helper1: [ 0,33;  0,23]
+Helper2: [ 0,20]
+
+Helper3:  0,75 <<<<<
+Helper1: -0,09
+Helper2:  0,09
+
+
+14 - desporto - Which of these musical instruments is not in the brass family?
+Helper3: [ 1,00]
+Helper1: [ 0,50;  0,12]
+Helper2: [ 0,20]
+
+Helper3:  0,80 <<<<<
+Helper1: -0,08
+Helper2:  0,09
+
+
+15 - desporto - Where would you most commonly find a "drop-down menu"?
+Helper3: [ 1,00]
+Helper1: [ 0,60;  0,20]
+Helper2: [ 0,20]
+
+Helper3:  0,67 <<<<<
+Helper1: -0,04
+Helper2:  0,09
+
+
+16 - desporto - Which 2007 film features the tagline, "A lot can happen on the road to nowhere"?
+Helper3: [ 1,00]
+Helper1: [ 0,60;  0,08]
+Helper2: [ 0,20]
+
+Helper3:  0,71 <<<<<
+Helper1: -0,06
+Helper2:  0,09
+
+
+17 - desporto - When you see a lunar eclipse from Earth, what would a person on the moon see?
+Helper3: [ 0,67]
+Helper1: [ 0,60; -0,04]
+Helper2: [ 0,20]
+
+Helper3:  0,60 <<<<<
+Helper1: -0,09
+Helper2:  0,09
+
+

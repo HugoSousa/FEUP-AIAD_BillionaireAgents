@@ -1,0 +1,81 @@
+
+1 - desporto - What sport is played at the Wimbledon Championships?
+Helper3: -
+Helper1: [ 0,08; -0,33]
+Helper2: -
+
+2 - desporto - When playing jacks, what does a player do right after picking up the jacks?
+Helper3: -
+Helper1: [-0,04; -0,33]
+Helper2: [ 0,33]
+
+3 - desporto - The puzzles, games and jokes of "Highlights" magazine are geared toward whom?
+Helper3: -
+Helper1: [ 0,04; -0,33]
+Helper2: [ 0,00]
+
+4 - desporto - On Mount Rushmore, what U.S. president is depicted with a mustache?
+Helper3: -
+Helper1: [ 0,12; -0,33]
+Helper2: [ 0,20]
+
+5 - desporto - The logo for the "Godfather" movies features a hand holding what?
+Helper3: -
+Helper1: [ 0,20; -0,33]
+Helper2: [ 0,33]
+
+6 - desporto - When making a doughnut, how is the dough most often cooked? 
+Helper3: -
+Helper1: [ 0,27; -0,33]
+Helper2: [ 0,43]
+
+7 - desporto - Who is attributed the discovery of penicillin in 1928?
+Helper3: -
+Helper1: [ 0,16; -0,33]
+Helper2: [ 0,25]
+
+8 - desporto - The puzzles, games and jokes of "Highlights" magazine are geared toward whom?
+Helper3: -
+Helper1: [ 0,23; -0,33]
+Helper2: [ 0,11]
+
+9 - desporto - Restaurants commonly display a sign that reads, "No shirt, no shoes, no" what?
+Helper3: -
+Helper1: [ 0,31; -0,33]
+Helper2: [ 0,00]
+
+10 - desporto - In the math equation: 35 ö 7 = 5, what is the divisor?
+Helper3: [ 0,33]
+Helper1: [ 0,20; -0,33]
+Helper2: [ 0,00]
+
+11 - desporto - In 2006, who did Ben Bernanke replace as Chairman of the Federal Reserve?
+Helper3: [ 0,50]
+Helper1: [ 0,08; -0,33]
+Helper2: [ 0,00]
+
+12 - desporto - In 2006, James Frey admitted to Oprah that he lied in his memoir titled what?
+Helper3: [ 0,60]
+Helper1: [ 0,16; -0,33]
+Helper2: [ 0,00]
+
+13 - desporto - In carpentry, a thin wedge of wood used to make a table level is called a what?
+Helper3: [ 0,67]
+Helper1: [ 0,23; -0,33]
+Helper2: [ 0,00]
+
+14 - desporto - What does the "31" represent in the logo for Baskin-Robbins ice cream parlors?
+Helper3: [ 0,43]
+Helper1: [ 0,12; -0,33]
+Helper2: [ 0,00]
+
+15 - desporto - Angus cattle first came from what country?
+Helper3: [ 0,50]
+Helper1: [ 0,20; -0,33]
+Helper2: [ 0,00]
+
+16 - desporto - The 2005 film "Jarhead" takes place during what war?
+Helper3: [ 0,56]
+Helper1: [ 0,08; -0,33]
+Helper2: [ 0,00]
+

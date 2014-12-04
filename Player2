@@ -1,0 +1,86 @@
+
+1 - desporto - By definition, which of these parts of speech can substitute for a noun?
+Helper3: -
+Helper1: -
+Helper2: -
+
+2 - desporto - According to the 1963 song, "Puff the Magic Dragon lived by the sea" where?
+Helper3: -
+Helper1: [-0,33]
+Helper2: [ 1,00]
+
+3 - desporto - The Wienermobile is the traveling icon of which of these food companies? 
+Helper3: -
+Helper1: [-0,33]
+Helper2: [ 0,33;  1,00]
+
+4 - desporto - According to the slogan, what popular toys wobble, but "they don't fall down"?
+Helper3: -
+Helper1: [-0,33; -1,00]
+Helper2: [ 0,00;  1,00]
+
+5 - desporto - Which of these words is not mentioned in the Declaration of Independence? 
+Helper3: -
+Helper1: [-0,33; -1,00]
+Helper2: [ 0,20;  1,00]
+
+6 - desporto - Which of the following countries has policemen nicknamed "Mounties"?
+Helper3: [ 1,00]
+Helper1: [-0,33; -1,00]
+Helper2: [ 0,33;  1,00]
+
+7 - desporto - During WWII, the Marine Corps used the Navajo word for "shark" as code for what?
+Helper3: [ 1,00]
+Helper1: [-0,33; -1,00]
+Helper2: [ 0,43;  1,00]
+
+8 - desporto - When do math enthusiasts celebrate "Pi Day" ?
+Helper3: [ 1,00]
+Helper1: [-0,33;  0,00]
+Helper2: [ 0,25;  1,00]
+
+9 - desporto - In 1993, what computer company introduced the Pentium chip?
+Helper3: [ 1,00]
+Helper1: [-0,33;  0,00]
+Helper2: [ 0,11;  1,00]
+
+10 - desporto - In Orson Welles's radio drama "War of the Worlds," the Martians land where?
+Helper3: [ 1,00]
+Helper1: [-0,33;  0,00]
+Helper2: [ 0,00;  0,50]
+
+11 - desporto - As of 2007, who is next in line after Prince Charles to be the King of England?
+Helper3: [ 0,33;  1,00]
+Helper1: [-0,33;  0,00]
+Helper2: [ 0,00;  0,50]
+
+12 - desporto - MTV anchor Kurt Loder co-wrote which singer's best-selling autobiography?
+Helper3: [ 0,50;  1,00]
+Helper1: [-0,33;  0,33]
+Helper2: [ 0,00;  0,50]
+
+13 - desporto - Maine provides nearly 90% of the country's supply of what food?
+Helper3: [ 0,60;  1,00]
+Helper1: [-0,33;  0,33]
+Helper2: [ 0,00;  0,20]
+
+14 - desporto - What NBA team did Julius "Dr. J" Erving play for from 1976 to 1987?
+Helper3: [ 0,67;  1,00]
+Helper1: [-0,33;  0,50]
+Helper2: [ 0,00;  0,20]
+
+15 - desporto - In 1497, what explorer became the first to sail around Africa to India?
+Helper3: [ 0,43;  1,00]
+Helper1: [-0,33;  0,60]
+Helper2: [ 0,00;  0,20]
+
+16 - desporto - Restaurants commonly display a sign that reads, "No shirt, no shoes, no" what?
+Helper3: [ 0,50;  1,00]
+Helper1: [-0,33;  0,60]
+Helper2: [ 0,00;  0,20]
+
+17 - desporto - A hijab is a headscarf worn by many women who are members of what faith?
+Helper3: [ 0,56;  0,67]
+Helper1: [-0,33;  0,60]
+Helper2: [ 0,00;  0,20]
+
