@@ -15,6 +15,7 @@ import java.util.HashMap;
 @SuppressWarnings("serial")
 public abstract class GenericPlayerAgent extends Agent{
 
+	protected int punctuation = 0;
 	protected Logger log;
 	protected int questionCounter = 0;
 	protected ArrayList<AID> players = new ArrayList<AID>();
@@ -64,13 +65,19 @@ public abstract class GenericPlayerAgent extends Agent{
 				//informação da resposta correta
 				//comparar se respondi bem/mal, recalcular o rating e adicionar no hashmap
 				if(presenterQuestionMsg.getContent().equals("Correct")){
-					//mensagem correta
 					System.out.println(getLocalName() + ": My answer was correct");
+					punctuation++;
 					lastAnswerIs(true);
 				}else if(presenterQuestionMsg.getContent().equals("Wrong")){
 					lastAnswerIs(false);
 					System.out.println(getLocalName() + ": My answer was wrong");
+				}else if(presenterQuestionMsg.getContent().equals("Finish")){
+					System.out.println("RECEIVED FINISH");
+					log.addToLog("");
+					log.addToLog("---------------------");
+					log.addToLog("Punctuation: " + punctuation);
 				}
+				
 				log.writeToFile();
 
 			}

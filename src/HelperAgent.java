@@ -6,6 +6,7 @@ import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
+
 //import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -70,10 +71,21 @@ public class HelperAgent extends Agent {
 	// método setup
 	protected void setup() {
 		
-		knowledge.addCategory("desporto",0.7);
+		/*knowledge.addCategory("desporto",0.7);
 		knowledge.addCategory("ciência", 0.1);
 		knowledge.addCategory("literatura", 0.4);
-		knowledge.addCategory("cultura geral", 0.2);
+		knowledge.addCategory("cultura geral", 0.2);*/
+		
+		//formato: nome_categoria:expertise nome_categoria2:expertise2
+		//categorias nao especificadas, assume-se expertise de 0
+		Object[] args = getArguments();
+		if(args != null && args.length > 0) {
+			for(int i = 0; i < args.length; i++){
+				String[] arg = ((String)args[i]).split(":");
+				knowledge.addCategory(arg[0], Integer.parseInt(arg[1])/100.0);
+			}
+		}
+		
 
 		// regista agente no DF
 		DFAgentDescription dfd = new DFAgentDescription();

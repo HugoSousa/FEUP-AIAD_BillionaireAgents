@@ -1,171 +1,169 @@
 
-1 - desporto - The Yangtze River is located in what country?
-Helper3: -
-Helper1: [ 0,08]
+1 - desporto - By definition, which of the following is a "triple-decker"?
+Helper1: [-1,00]
 Helper2: -
+Helper3: [ 0,08]
 
-Helper3:  0,00
-Helper1:  0,03 <<<<<
+Helper1: -0,11
 Helper2:  0,00
+Helper3:  0,01 <<<<<
 
+Correct Answer
 
-2 - desporto - Tofu, a soft, protein-rich food, is made from what?
-Helper3: -
-Helper1: [-0,04]
+2 - desporto - What is the meaning of the title of Mario Puzo's 2000 novel "Omerta"?
+Helper1: [-1,00]
 Helper2: [ 1,00]
+Helper3: [-0,04]
 
-Helper3:  0,00 / 0
-Helper1: -0,26 / 5
-Helper2:  0,33 / 15 <<<<<
+Helper1: -0,11
+Helper2:  0,11
+Helper3:  0,18 <<<<<
 
+Correct Answer
 
-3 - desporto - Which of these breads is described as a long, wide loaf of white Italian bread?
-Helper3: -
-Helper1: [ 0,04]
+3 - desporto - Which of these expressions best describes a person who is very pleased?
+Helper1: [-1,00]
 Helper2: [ 1,00]
+Helper3: [ 1,00;  0,04]
 
-Helper3:  0,00
-Helper1: -0,24
-Helper2:  0,50 <<<<<
+Helper1: -0,11
+Helper2:  0,11
+Helper3:  0,38 <<<<<
 
+Correct Answer
 
-4 - desporto - Which of these '80s novels has an unnamed protagonist? 
-Helper3: -
-Helper1: [-1,00;  0,12]
+4 - desporto - Which of these words is not synonymous with the others?
+Helper1: [ 0,00]
 Helper2: [ 1,00]
+Helper3: [ 1,00;  0,12]
 
-Helper3:  0,00
-Helper1: -0,38
-Helper2:  0,33 <<<<<
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,47 <<<<<
 
+Correct Answer
 
-5 - desporto - The famous Delano Hotel is located in which of these cities?
-Helper3: -
-Helper1: [-1,00;  0,20]
+5 - desporto - Due to his accent, which celebrity is often referred to as "Ah-nold"?
+Helper1: [ 0,00]
 Helper2: [ 1,00]
+Helper3: [ 1,00;  0,00]
 
-Helper3:  0,00
-Helper1: -0,36
-Helper2:  0,50 <<<<<
-
-
-6 - desporto - The title of the 1984 movie "Romancing the Stone" refers to what gemstone?
-Helper3: [ 1,00]
-Helper1: [-1,00;  0,27]
-Helper2: [ 1,00]
-
-Helper3:  0,33
-Helper1: -0,35
-Helper2:  0,60 <<<<<
-
-
-7 - desporto - Scholars or intellectuals are said to reside in what kind of tower?
-Helper3: [ 1,00]
-Helper1: [-1,00;  0,16]
-Helper2: [ 1,00]
-
-Helper3:  0,33
-Helper1: -0,37
-Helper2:  0,67 <<<<<
-
-
-8 - desporto - The Shenandoah River is located in which of these U.S. states?
-Helper3: [ 1,00]
-Helper1: [ 0,00;  0,23]
-Helper2: [ 1,00]
-
-Helper3:  0,33
-Helper1: -0,15
-Helper2:  0,57 <<<<<
-
-
-9 - desporto - What part of a basil plant is usually used as a spice?
-Helper3: [ 1,00]
-Helper1: [ 0,00;  0,31]
-Helper2: [ 1,00]
-
-Helper3:  0,33
-Helper1: -0,14
-Helper2:  0,50 <<<<<
-
-
-10 - desporto - Which of these is defined as "a small, owner-operated business"?
-Helper3: [ 1,00]
-Helper1: [ 0,00;  0,20]
-Helper2: [ 0,50]
-
-Helper3:  0,33 <<<<<
-Helper1: -0,16
-Helper2:  0,22
-
-
-11 - desporto - In "The Terminal," Tom Hanks's character is stranded in an airport in what city?
-Helper3: [ 1,00]
-Helper1: [ 0,00;  0,08]
-Helper2: [ 0,50]
-
+Helper1:  0,00
+Helper2:  0,11
 Helper3:  0,50 <<<<<
-Helper1: -0,18
-Helper2:  0,22
 
+Correct Answer
 
-12 - desporto - After New York City, what U.S. city is the second largest in population?
-Helper3: [ 1,00]
-Helper1: [ 0,33;  0,16]
-Helper2: [ 0,50]
+6 - desporto - In his 1991 top ten song, Rod Stewart sings about the "Rhythm of My" what?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [ 0,00;  0,08]
 
-Helper3:  0,67 <<<<<
-Helper1: -0,10
-Helper2:  0,22
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,37 <<<<<
 
+Wrong Answer
 
-13 - desporto - Which of these words is not synonymous with the others?
-Helper3: [ 1,00]
-Helper1: [ 0,33;  0,23]
-Helper2: [ 0,20]
+7 - desporto - In 2007, a New Zealand fishing crew caught a 990 pound "colossal" what?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [-0,33; -0,04]
 
-Helper3:  0,75 <<<<<
-Helper1: -0,09
-Helper2:  0,09
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,18 <<<<<
 
+Correct Answer
 
-14 - desporto - Which of these musical instruments is not in the brass family?
-Helper3: [ 1,00]
-Helper1: [ 0,50;  0,12]
-Helper2: [ 0,20]
+8 - desporto - What are you afraid of if you have triskaidekaphobia?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [ 0,00;  0,04]
 
-Helper3:  0,80 <<<<<
-Helper1: -0,08
-Helper2:  0,09
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,29 <<<<<
 
+Correct Answer
 
-15 - desporto - Where would you most commonly find a "drop-down menu"?
-Helper3: [ 1,00]
-Helper1: [ 0,60;  0,20]
-Helper2: [ 0,20]
+9 - desporto - Which letter does not appear in any symbol in the Periodic Table of Elements?
+Helper1: [-0,33]
+Helper2: [ 1,00]
+Helper3: [ 0,00;  0,12]
 
-Helper3:  0,67 <<<<<
 Helper1: -0,04
-Helper2:  0,09
+Helper2:  0,11
+Helper3:  0,32 <<<<<
 
+Correct Answer
 
-16 - desporto - Which 2007 film features the tagline, "A lot can happen on the road to nowhere"?
-Helper3: [ 1,00]
-Helper1: [ 0,60;  0,08]
-Helper2: [ 0,20]
+10 - desporto - The Italian cooking term "alla primavera" means the dish includes what?
+Helper1: [-0,33]
+Helper2: [ 1,00]
+Helper3: [ 0,20;  0,20]
 
-Helper3:  0,71 <<<<<
-Helper1: -0,06
-Helper2:  0,09
+Helper1: -0,04
+Helper2:  0,11
+Helper3:  0,40 <<<<<
 
+Correct Answer
 
-17 - desporto - When you see a lunar eclipse from Earth, what would a person on the moon see?
-Helper3: [ 0,67]
-Helper1: [ 0,60; -0,04]
-Helper2: [ 0,20]
+11 - desporto - Mossad is the name of one of what government's intelligence service?
+Helper1: [-0,33]
+Helper2: [ 1,00]
+Helper3: [ 0,20;  0,27]
 
-Helper3:  0,60 <<<<<
-Helper1: -0,09
-Helper2:  0,09
+Helper1: -0,04
+Helper2:  0,11
+Helper3:  0,43 <<<<<
 
+Wrong Answer
+
+12 - desporto - In the 1980 movie "The Shining," what is "the shining"?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [ 0,20;  0,35]
+
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,38 <<<<<
+
+Correct Answer
+
+13 - desporto - What word best describes the TV show known as "Iron Chef"?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [ 0,20;  0,23]
+
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,38 <<<<<
+
+Wrong Answer
+
+14 - desporto - Which of these Broadway musicals features the song "Memory"?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [ 0,20;  0,31]
+
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,34 <<<<<
+
+Correct Answer
+
+15 - desporto - When do math enthusiasts celebrate "Pi Day" ?
+Helper1: [ 0,00]
+Helper2: [ 1,00]
+Helper3: [ 0,20;  0,38]
+
+Helper1:  0,00
+Helper2:  0,11
+Helper3:  0,38 <<<<<
+
+Wrong Answer
+
+---------------------
+Punctuation: 11
 

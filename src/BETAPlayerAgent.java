@@ -8,8 +8,6 @@ import java.util.Random;
 
 public class BETAPlayerAgent extends GenericPlayerAgent{
 
-	//private int correctAnswers = 0;
-	//private int wrongAnswers = 0;
 	private double WEIGHT = 1.0;
 	private HashMap<HelperCategoryKey, FeedbackInfo> interactionTrust = new HashMap<HelperCategoryKey, FeedbackInfo>();
 
@@ -151,7 +149,12 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 
 		HelperCategoryKey key = new HelperCategoryKey(lastHelper, lastCategory);
 		FeedbackInfo lastRating = interactionTrust.get(key);
-
+		
+		if(result)
+			log.addToLog("Correct Answer");
+		else
+			log.addToLog("Wrong Answer");
+		
 
 		if(lastRating == null){
 			if(result)
@@ -169,6 +172,8 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 				interactionTrust.put(key, new FeedbackInfo(correctRating, totalRatings + 1));
 		}
 
+		//log.addToLog(interactionTrust.get(new HelperCategoryKey(lastHelper, lastCategory)).toString());
+		
 		System.out.println("INTERACTION TRUST: " + interactionTrust.get(new HelperCategoryKey(lastHelper, lastCategory)));
 
 	}

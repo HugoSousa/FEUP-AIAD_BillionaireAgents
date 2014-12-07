@@ -234,6 +234,28 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 		
 		
 	}
+	
+	protected void setup() {
+		
+		//formato: nome_variavel:valor_variavel
+		//variaveis possiveis: IT, W, NC 
+		//se nao forem especificadas, tomam o valor default
+		Object[] args = getArguments();
+		if(args != null && args.length > 0) {
+			for(int i = 0; i < args.length; i++){
+				String[] arg = ((String)args[i]).split(":");
+				if(arg[0].equalsIgnoreCase("IT"))
+					THRESHOLD_IT = Integer.parseInt(arg[1]);
+				else if(arg[0].equalsIgnoreCase("W"))
+					THRESHOLD_W = Integer.parseInt(arg[1]);
+				if(arg[0].equalsIgnoreCase("NC"))
+					NEWCOMER_THRESHOLD = Integer.parseInt(arg[1]);
+				
+			}
+		}
+		
+		super.setup();
+	}
 
 
 

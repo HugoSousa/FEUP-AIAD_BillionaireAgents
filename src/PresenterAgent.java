@@ -14,16 +14,17 @@ import java.util.Random;
 
 @SuppressWarnings("serial")
 public class PresenterAgent extends Agent{
-
+	private int totalGames = 1;
+	private int game = 1;
+	private int round = 1;
+	
 	private QuestionsDatabase questions = new QuestionsDatabase();
 	private ArrayList<AID> players = new ArrayList<AID>();
 	private int playerTurn = 0;
 	private Question actualQuestion = null;
-	
+
 	// classe do behaviour
 	class PresenterBehaviour extends SimpleBehaviour {
-		
-		private int round = 0;
 
 		// construtor do behaviour
 		public PresenterBehaviour(Agent a) {
@@ -34,41 +35,41 @@ public class PresenterAgent extends Agent{
 		public void action() {
 			ACLMessage msg = new ACLMessage(ACLMessage.QUERY_REF);
 			msg.addReceiver(players.get(playerTurn));
-			
+
 			//escolher pergunta aleatoria
 			Random rand = new Random();
-		    int randomQuestion = rand.nextInt(questions.size());
-		    actualQuestion = questions.get(randomQuestion);
-		    //questions.remove(actualQuestion);
-		    
-		    HashMap<String, Object> question = new HashMap<String, Object>();
-		    question.put("question", actualQuestion.getText());
-		    question.put("category", actualQuestion.getCategory());
-		    question.put("difficulty", new Integer(actualQuestion.getDifficulty()));
-		    question.put("options", actualQuestion.getAnswerOptions());
-		    String out = Utils.JSONEncode(question);
-		    
-		    
-		    //System.out.println("PRESENTER SENDING " + out.toString());
-		    
+			int randomQuestion = rand.nextInt(questions.size());
+			actualQuestion = questions.get(randomQuestion);
+			//questions.remove(actualQuestion);
+
+			HashMap<String, Object> question = new HashMap<String, Object>();
+			question.put("question", actualQuestion.getText());
+			question.put("category", actualQuestion.getCategory());
+			question.put("difficulty", new Integer(actualQuestion.getDifficulty()));
+			question.put("options", actualQuestion.getAnswerOptions());
+			String out = Utils.JSONEncode(question);
+
+
+			//System.out.println("PRESENTER SENDING " + out.toString());
+
 			msg.setContent(out);
 			send(msg);
-			
+
 			ACLMessage receiveMsg = blockingReceive();
 			if(receiveMsg.getPerformative() == ACLMessage.INFORM_REF) {
-			
+
 				System.out.println("verificar player");
-				
+
 				//verificar se a resposta veio do player correto
 				if(receiveMsg.getSender().equals(players.get(playerTurn))){
 					String playerAnswer = receiveMsg.getContent();
 					System.out.println(getLocalName() + " - recebi resposta " + playerAnswer);
-					
-					
+
+
 					ACLMessage replyAnswer = receiveMsg.createReply();
-		            replyAnswer.setPerformative(ACLMessage.INFORM_REF);
+					replyAnswer.setPerformative(ACLMessage.INFORM_REF);
 					//responder certo/errado 
-		            
+
 					if(playerAnswer.equals(actualQuestion.getCorrectAnswer())){
 						replyAnswer.setContent("Correct");
 					}
@@ -78,18 +79,24 @@ public class PresenterAgent extends Agent{
 
 					//System.out.println("PRESENTER SENDING: " + replyAnswer.getContent());
 					send(replyAnswer);
-					
-					round++;
+
+					//round++;
 					nextPlayer();
-					//enviar pergunta ao proximo concorrente
+					if(done()){
+						ACLMessage finishMsg = new ACLMessage(ACLMessage.INFORM_REF);
+						for(AID player: players)
+							finishMsg.addReceiver(player);
+						finishMsg.setContent("Finish");
+						send(finishMsg);
+					}
 				}
-						
+
 			}
 		}
 
 		// método done
 		public boolean done() {
-			return round == 50;
+			return game == totalGames + 1  && round == 1;
 		}
 
 	}   // fim da classe PingPongBehaviour
@@ -97,7 +104,12 @@ public class PresenterAgent extends Agent{
 
 	// método setup
 	protected void setup() {		
-		
+
+		Object[] args = getArguments();
+		if(args != null && args.length > 0) {
+			totalGames = ((Integer) args[0]).intValue();
+		}
+
 		// regista agente no DF
 		DFAgentDescription dfd = new DFAgentDescription();
 		dfd.setName(getAID());
@@ -114,15 +126,15 @@ public class PresenterAgent extends Agent{
 		// cria behaviour
 		PresenterBehaviour b = new PresenterBehaviour(this);
 		addBehaviour(b);
-		
-		
+
+
 		//procura por agentes PlayerAgent
 		DFAgentDescription template = new DFAgentDescription();
 		ServiceDescription sd1 = new ServiceDescription();
-		
+
 		sd1.setType("player");
 		template.addServices(sd1);
-		
+
 		try {
 			DFAgentDescription[] result = DFService.search(this, template);
 			for (int i=0; i<result.length; i++){
@@ -131,7 +143,7 @@ public class PresenterAgent extends Agent{
 			}
 
 		} catch(FIPAException e) { e.printStackTrace(); }
-		
+
 	}   // fim do metodo setup
 
 	// método takeDown
@@ -143,11 +155,18 @@ public class PresenterAgent extends Agent{
 			e.printStackTrace();
 		}
 	}
-	
+
 	private void nextPlayer(){
 		if(playerTurn < players.size() - 1)
 			playerTurn++;
-		else
+		else{
 			playerTurn = 0;
+			if(round == 15){
+				game++;
+				round = 1;
+			}
+			else
+				round++;
+		}
 	}
 }
