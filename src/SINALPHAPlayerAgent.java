@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 
+@SuppressWarnings("serial")
 public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 
 	private double ALPHA_START = 2 * Math.PI;
@@ -14,7 +15,7 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 	private double POSITIVE_LAMBDA = 1.0;
 	private double NEGATIVE_LAMBDA = -1.5;
 	private double OMEGA = Math.PI / 40; 
-
+	
 	private HashMap<HelperCategoryKey, Double> interactionTrust = new HashMap<HelperCategoryKey, Double>();
 
 	public SINALPHAPlayerAgent(){
@@ -38,7 +39,12 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 
 	@Override
 	protected void lastAnswerIs(boolean result){
-
+		
+		if(result)
+			log.addToLog("Correct Answer");
+		else
+			log.addToLog("Wrong Answer");
+		
 		double lambda;
 
 		if(result)
@@ -113,10 +119,10 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 					for (Double d: wr) {
 						sum += d;
 					}
-					trust = sum / (double) count;
+					trust = 0.3 * (sum / (double) count);
 				}
 				else if(wr == null){
-					trust = it;
+					trust = Math.sin(it);
 				}
 				else{
 					double sum = 0;
@@ -126,7 +132,7 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 					}
 					double trust_wr = sum / (double) count;
 
-					trust = 0.7 * it + 0.3 * trust_wr;
+					trust = 0.7 * Math.sin(it) + 0.3 * trust_wr;
 				}
 
 			}
@@ -158,7 +164,26 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 			best.clear();
 		}else
 			selectedHelper = (AID) best.toArray()[0];
-
+		
+		String list = "\n" ;
+		
+		for (HashMap.Entry<AID, Double> entry : finalTrust.entrySet()) {
+			
+			AID helper = entry.getKey();
+			Double trustValue = entry.getValue();
+			
+			list += "[" + (int)helperInfo.get(helper).getRating() + "/" + helperInfo.get(helper).getTotalRatings() + "] ";
+			list += helper.getLocalName() +": " ;
+			if (trustValue >= 0) 
+				list += " ";
+			list += String.format("%.2f", trustValue);
+			if (selectedHelper == helper) 
+				list += " <<<<<\n";
+			else 
+				list += "\n";
+			
+		}
+		log.addToLog( list);
 
 		System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
 		return selectedHelper;
@@ -217,7 +242,7 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 					POSITIVE_LAMBDA = Double.parseDouble(arg[1]);
 				else if(arg[0].equalsIgnoreCase("NEG_L"))
 					NEGATIVE_LAMBDA = Double.parseDouble(arg[1]);
-				if(arg[0].equalsIgnoreCase("OMEGA"))
+				else if(arg[0].equalsIgnoreCase("OMEGA"))
 					OMEGA = Math.PI / Double.parseDouble(arg[1]);
 
 			}

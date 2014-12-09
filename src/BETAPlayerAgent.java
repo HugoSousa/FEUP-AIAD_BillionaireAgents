@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 
+@SuppressWarnings("serial")
 public class BETAPlayerAgent extends GenericPlayerAgent{
 
 	private double WEIGHT = 1.0;
@@ -109,6 +110,8 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 			
 			AID helper = entry.getKey();
 			Double trustValue = entry.getValue();
+			
+			list += "[" + (int)helperInfo.get(helper).getRating() + "/" + helperInfo.get(helper).getTotalRatings() + "] ";
 			list += helper.getLocalName() +": " ;
 			if (trustValue >= 0) 
 				list += " ";

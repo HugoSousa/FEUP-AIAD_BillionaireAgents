@@ -4,9 +4,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 
-public class FeedbackInfo implements java.io.Serializable{
+public class FeedbackInfo{
 
-	private static final long serialVersionUID = -2148458889630846090L;
 	private double rating;
 	private int totalRatings;
 	
@@ -34,35 +33,6 @@ public class FeedbackInfo implements java.io.Serializable{
 	
 	public String toString(){
 		return rating + "/" + totalRatings;
-	}
-
-	public String serialize() {
-		 String serializedObject = "";
-
-		 // serialize the object
-		 try {
-		     ByteArrayOutputStream bo = new ByteArrayOutputStream();
-		     ObjectOutputStream so = new ObjectOutputStream(bo);
-		     so.writeObject(this);
-		     so.flush();
-		     serializedObject = bo.toString();
-		 } catch (Exception e) {
-		     System.out.println(e);
-		 }
-		 return serializedObject;
-	}
-	
-	public static FeedbackInfo deserialize(String serializedObject) {
-		 FeedbackInfo obj = null;
-		try {
-		     byte b[] = serializedObject.getBytes(); 
-		     ByteArrayInputStream bi = new ByteArrayInputStream(b);
-		     ObjectInputStream si = new ObjectInputStream(bi);
-		      obj = (FeedbackInfo) si.readObject();
-		 } catch (Exception e) {
-		     System.out.println(e);
-		 }
-		return obj;
 	}
 	
 }

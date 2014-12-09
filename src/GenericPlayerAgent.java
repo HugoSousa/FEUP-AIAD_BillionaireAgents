@@ -7,14 +7,14 @@ import jade.domain.FIPAAgentManagement.DFAgentDescription;
 import jade.domain.FIPAAgentManagement.ServiceDescription;
 import jade.lang.acl.ACLMessage;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 
 @SuppressWarnings("serial")
 public abstract class GenericPlayerAgent extends Agent{
-
+	
+	protected HashMap<AID, FeedbackInfo> helperInfo = new HashMap<AID, FeedbackInfo>();
 	protected int punctuation = 0;
 	protected Logger log;
 	protected int questionCounter = 0;
@@ -67,8 +67,11 @@ public abstract class GenericPlayerAgent extends Agent{
 				if(presenterQuestionMsg.getContent().equals("Correct")){
 					System.out.println(getLocalName() + ": My answer was correct");
 					punctuation++;
+					helperInfo.get(lastHelper).setRating(helperInfo.get(lastHelper).getRating() + 1);
+					helperInfo.get(lastHelper).setTotalRatings(helperInfo.get(lastHelper).getTotalRatings() + 1);
 					lastAnswerIs(true);
 				}else if(presenterQuestionMsg.getContent().equals("Wrong")){
+					helperInfo.get(lastHelper).setTotalRatings(helperInfo.get(lastHelper).getTotalRatings() + 1);
 					lastAnswerIs(false);
 					System.out.println(getLocalName() + ": My answer was wrong");
 				}else if(presenterQuestionMsg.getContent().equals("Finish")){
@@ -77,7 +80,7 @@ public abstract class GenericPlayerAgent extends Agent{
 					log.addToLog("---------------------");
 					log.addToLog("Punctuation: " + punctuation);
 				}
-				
+							
 				log.writeToFile();
 
 			}
@@ -144,6 +147,7 @@ public abstract class GenericPlayerAgent extends Agent{
 			
 			for (int i=0; i<result.length; i++){
 				helpers.add(result[i].getName());
+				helperInfo.put(result[i].getName(), new FeedbackInfo(0,0));
 			}
 
 

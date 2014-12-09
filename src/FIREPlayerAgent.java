@@ -80,7 +80,8 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 			int newcomerCount;
 			FeedbackInfo it = interactionTrustByHelperCategory.get(helper);
 			ArrayList<Double> wr = witnessReputationByHelperCategory.get(helper);
-
+			double division = 2.0;
+			
 			if (it == null && wr == null) {
 				finalTrust.put(helper, new FeedbackInfo(0.0,0));
 
@@ -90,20 +91,22 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 					ro_IT = 0;
 					trust_IT = 0;
 					newcomerCount = 0;
+					division = 1.0;
 				}
 				else {
 					trust_IT = it.getRating();
 					newcomerCount = it.getTotalRatings();
 					
-					if (it.getTotalRatings() > THRESHOLD_IT)
+					if (it.getTotalRatings() < THRESHOLD_IT)
 						ro_IT = it.getTotalRatings() / (double) THRESHOLD_IT;
 					else 
 						ro_IT = 1;
-				}
+					}
 
 				if (wr == null) {
 					ro_WR = 0;
 					trust_WR = 0;
+					division = 1.0;
 				} else {
 					double sum = 0;
 					double count = wr.size();
@@ -112,13 +115,13 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 					}
 					trust_WR = sum / (double) count;
 
-					if (count > THRESHOLD_W)
+					if (count < THRESHOLD_W)
 						ro_WR =  count / (double) THRESHOLD_W;
 					else 
 						ro_WR = 1.0;
 				}
 				
-				trust = (trust_IT * ro_IT + trust_WR * ro_WR) / (double)(ro_WR + ro_IT);
+				trust = (trust_IT * ro_IT + trust_WR * ro_WR) / division;
 				finalTrust.put(helper, new FeedbackInfo(trust,newcomerCount));
 			}
 		}
@@ -160,6 +163,27 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 		}else
 			selectedHelper = (AID) uniqueBest.toArray()[0];
 		
+		String list = "\n" ;
+		
+		for (HashMap.Entry<AID, FeedbackInfo> entry : finalTrust.entrySet()) {
+			
+			AID helper = entry.getKey();
+			Double trustValue = entry.getValue().getRating();
+			
+			list += "[" + (int)helperInfo.get(helper).getRating() + "/" + helperInfo.get(helper).getTotalRatings() + "] ";
+			list += helper.getLocalName() +": " ;
+			if (trustValue >= 0) 
+				list += " ";
+			list += String.format("%.2f", trustValue);
+			if(entry.getValue().getTotalRatings() < NEWCOMER_THRESHOLD)
+				list += " [NC] ";
+			if (selectedHelper == helper) 
+				list += " <<<<<\n";
+			else 
+				list += "\n";
+			
+		}
+		log.addToLog( list);
 		
 		System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
 		return selectedHelper;
@@ -193,6 +217,8 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 				mean /= (double) helperRatings.size();
 				
 				double trustRating = mean;
+				if(helperRatings.size() < THRESHOLD_IT)
+					trustRating *= trustRating / THRESHOLD_IT;
 				sendInfo.put(helper.getLocalName(), new Double(trustRating));
 			}
 		}
@@ -216,6 +242,11 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 	@Override
 	protected void lastAnswerIs(boolean result) {
 		double lastAnswer;
+		
+		if(result)
+			log.addToLog("Correct Answer");
+		else
+			log.addToLog("Wrong Answer");
 		
 		if (result)
 			lastAnswer = 1;
