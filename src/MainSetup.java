@@ -15,7 +15,7 @@ public class MainSetup extends Agent{
 			cc.createNewAgent("Helper2", "HelperAgent", new Object[]{"desporto:40", "cultura:50"}).start();
 			cc.createNewAgent("Helper3", "HelperAgent", new Object[]{"desporto:60", "cultura:50"}).start();
 			
-			System.out.print("Waiting for helpers");
+			System.out.print("Waiting for helpers. (Press ENTER to continue).");
 			Scanner s = new Scanner(System.in);
 			s.nextLine();
 
@@ -23,7 +23,7 @@ public class MainSetup extends Agent{
 			cc.createNewAgent("PlayerSINALPHA", "SINALPHAPlayerAgent", null).start();
 			cc.createNewAgent("PlayerBETA", "BETAPlayerAgent", null).start();
 			
-			System.out.print("Waiting for players/presenter");
+			System.out.print("Waiting for players/presenter. (Press ENTER to continue).");
 			s.nextLine();
 			s.close();
 			
