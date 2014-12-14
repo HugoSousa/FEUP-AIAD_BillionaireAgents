@@ -1,0 +1,1159 @@
+
+1 - desporto - What movie is based on the life of union organizer Crystal Lee Sutton?
+Helper1: -
+Helper2: -
+Helper3: [ 0,20; -0,12]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[0/0] Helper3:  0,02 <<<<<
+
+Correct Answer
+
+2 - desporto - President George W. Bush's ranch is located just outside what Texas town?
+Helper1: [-0,12]
+Helper2: -
+Helper3: [ 0,00; -0,12]
+
+[0/0] Helper1: -0,04
+[0/0] Helper2:  0,00
+[1/1] Helper3:  0,18 <<<<<
+
+Correct Answer
+
+3 - desporto - Which of these actors was not an original "Saturday Night Live" cast member?
+Helper1: [-0,12]
+Helper2: [-0,12]
+Helper3: [ 0,02; -0,12]
+
+[0/0] Helper1: -0,04
+[0/0] Helper2: -0,04
+[2/2] Helper3:  0,23 <<<<<
+
+Correct Answer
+
+4 - desporto - Which of the following U.S. presidents was not born in Massachusetts?
+Helper1: [-0,12]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,02; -0,12]
+
+[0/0] Helper1: -0,04
+[0/0] Helper2: -0,01
+[3/3] Helper3:  0,25 <<<<<
+
+Wrong Answer
+
+5 - desporto - Angus cattle first came from what country?
+Helper1: [ 0,20; -0,04]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,02; -0,12]
+
+[0/0] Helper1:  0,04
+[0/0] Helper2: -0,01
+[3/4] Helper3:  0,12 <<<<<
+
+Correct Answer
+
+6 - desporto - In 2002, Red Fusion was the first new flavor in 117 years for what soda brand?
+Helper1: [ 0,20;  0,04]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,02; -0,12]
+
+[0/0] Helper1:  0,06
+[0/0] Helper2: -0,01
+[4/5] Helper3:  0,15 <<<<<
+
+Correct Answer
+
+7 - desporto - Which of these magical creatures shares its name with a popular brand of soda?
+Helper1: [ 0,20;  0,12]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,00; -0,12]
+
+[0/0] Helper1:  0,08
+[0/0] Helper2: -0,01
+[5/6] Helper3:  0,16 <<<<<
+
+Wrong Answer
+
+8 - desporto - Which of these U.S. states borders more than two other U.S. states?
+Helper1: [ 0,20;  0,20]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,00; -0,12]
+
+[0/0] Helper1:  0,10 <<<<<
+[0/0] Helper2: -0,01
+[5/7] Helper3:  0,09
+
+Correct Answer
+
+9 - desporto - Which tennis major was the last to award equal prize money to men and women?
+Helper1: [ 0,20;  0,27]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,00; -0,12]
+
+[1/1] Helper1:  0,29 <<<<<
+[0/0] Helper2: -0,01
+[5/7] Helper3:  0,09
+
+Correct Answer
+
+10 - desporto - What political thriller author endorses the video game series "Splinter Cell"? 
+Helper1: [ 0,20;  0,35]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,00; -0,12]
+
+[2/2] Helper1:  0,39 <<<<<
+[0/0] Helper2: -0,01
+[5/7] Helper3:  0,09
+
+Correct Answer
+
+11 - desporto - By definition, what name is given to the science of map-making?
+Helper1: [ 0,20;  0,23]
+Helper2: [ 0,20; -0,23]
+Helper3: [ 0,00; -0,12]
+
+[3/3] Helper1:  0,39 <<<<<
+[0/0] Helper2: -0,01
+[5/7] Helper3:  0,09
+
+Correct Answer
+
+12 - desporto - Which of the following is not a form of billiards?
+Helper1: [ 0,20;  0,31]
+Helper2: [ 0,05; -0,23]
+Helper3: [ 0,00; -0,12]
+
+[4/4] Helper1:  0,43 <<<<<
+[0/0] Helper2: -0,05
+[5/7] Helper3:  0,09
+
+Correct Answer
+
+13 - desporto - At more than 4,100 miles in length, what river is the world's longest?
+Helper1: [ 0,20;  0,20]
+Helper2: [ 0,05; -0,23]
+Helper3: [-0,20; -0,12]
+
+[5/5] Helper1:  0,41 <<<<<
+[0/0] Helper2: -0,05
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+14 - desporto - The title of the 1984 movie "Romancing the Stone" refers to what gemstone?
+Helper1: [ 0,20;  0,27]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[5/6] Helper1:  0,34 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+15 - desporto - What is the name of the VH1 celeb-reality show featuring Andew Dice Clay?
+Helper1: [ 1,00;  0,35]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[6/7] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+16 - desporto - On a commercial ship, the officer next in command to the captain is called what?
+Helper1: [ 0,67;  0,42]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[7/8] Helper1:  0,56 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+17 - desporto - What is the English translation of the French phrase "je ne sais quoi"?
+Helper1: [ 0,43;  0,31]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[8/9] Helper1:  0,47 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+18 - desporto - Newspaper columnist Liz Smith writes primarily about what subject?
+Helper1: [ 0,25;  0,38]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[8/10] Helper1:  0,39 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+19 - desporto - What part of your body is traditionally groomed with an emery board?
+Helper1: [ 0,33;  0,45]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[9/11] Helper1:  0,45 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+20 - desporto - In the U.S., Columbus Day is celebrated in what month?
+Helper1: [ 0,40;  0,52]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[10/12] Helper1:  0,50 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+21 - desporto - Which of these expressions best describes a person who is very pleased?
+Helper1: [ 0,45;  0,59]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[10/13] Helper1:  0,50 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+22 - desporto - Which of these trees has "needles"?
+Helper1: [ 0,50;  0,65]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[11/14] Helper1:  0,55 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+23 - desporto - Aer Lingus is the national airline of what country?
+Helper1: [ 0,54;  0,71]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[12/15] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+24 - desporto - Which of these players is referred to as a "hurler"?
+Helper1: [ 0,57;  0,76]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[12/16] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+25 - desporto - In the '90s, "dot-com" referred to companies mainly conducting business how? 
+Helper1: [ 0,60;  0,81]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[13/17] Helper1:  0,62 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+26 - desporto - The name of which of these kinds of pasta is Italian for "quills"?
+Helper1: [ 0,63;  0,85]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[13/18] Helper1:  0,62 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+27 - desporto - The Golden State is the common nickname for what U.S. state?
+Helper1: [ 0,65;  0,79]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[13/19] Helper1:  0,58 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+28 - desporto - Who was TIME magazine's first Man of the Year?
+Helper1: [ 0,67;  0,71]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[14/20] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+29 - desporto - Where is the Iliac Crest located?
+Helper1: [ 0,68;  0,76]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[14/21] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+30 - desporto - One of the most active volcanoes, Mount Etna is located in what country?
+Helper1: [ 0,60;  0,81]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[15/22] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+31 - desporto - What is the most populous city in Canada?
+Helper1: [ 0,62;  0,73]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[16/23] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+32 - desporto - According to the 1963 song, "Puff the Magic Dragon lived by the sea" where?
+Helper1: [ 0,55;  0,79]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[17/24] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+33 - desporto - What is the name for the part of a song that repeats a number of times?
+Helper1: [ 0,48;  0,83]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[18/25] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+34 - desporto - By definition, which of these parts of speech can substitute for a noun?
+Helper1: [ 0,42;  0,87]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[19/26] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+35 - desporto - In the '84 movie "Splash," the mermaid takes her name from what famous avenue?
+Helper1: [ 0,44;  0,91]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[20/27] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+36 - desporto - What sport made Italy's Alberto Tomba famous?
+Helper1: [ 0,38;  0,94]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[20/28] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+37 - desporto - In 2007, Angelina Jolie adopted her son Pax from what country?
+Helper1: [ 0,41;  0,89]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[21/29] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+38 - desporto - Which vegetable is traditionally used to make "latkes," the popular Hanukkah dish?
+Helper1: [ 0,43;  0,83]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[22/30] Helper1:  0,56 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+39 - desporto - On the TV series "Cheers," what is the name of Norm Peterson's wife?
+Helper1: [ 0,45;  0,87]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[22/31] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+40 - desporto - In the 1999 movie "Stuart Little," what actor provides the voice for Stuart?
+Helper1: [ 0,47;  0,91]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[23/32] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+41 - desporto - What country was the first to ban overly thin models from its runways in 2006?
+Helper1: [ 0,48;  0,85]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[23/33] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+42 - desporto - In the 1980 movie "The Shining," what is "the shining"?
+Helper1: [ 0,50;  0,89]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[24/34] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+43 - desporto - Who portrays Chandler Bing's drag queen father on the TV comedy "Friends"?
+Helper1: [ 0,45;  0,92]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[25/35] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+44 - desporto - What type of weather phenomenon is a sirocco?
+Helper1: [ 0,47;  0,95]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[26/36] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+45 - desporto - Who proposed the theory of gravity?
+Helper1: [ 0,43;  0,97]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[27/37] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+46 - desporto - Which of these vitamins is especially important to help maintain good vision?
+Helper1: [ 0,44;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[28/38] Helper1:  0,62 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+47 - desporto - The battle known as Hamburger Hill took place during what war?
+Helper1: [ 0,41;  0,96]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[29/39] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+48 - desporto - "Why can't they just stop?" is a tagline for which 2007 HBO series?
+Helper1: [ 0,37;  0,92]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[30/40] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+49 - desporto - If you call someone a "skinflint," you are saying he is what?
+Helper1: [ 0,33;  0,87]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[31/41] Helper1:  0,56 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+50 - desporto - What is usually listed on a person's rap sheet?
+Helper1: [ 0,30;  0,91]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[32/42] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+51 - desporto - A person born on Valentine's Day falls under what sign of the zodiac?
+Helper1: [ 0,32;  0,85]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[33/43] Helper1:  0,56 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+52 - desporto - By definition, a pneumatic drill is powered by what?
+Helper1: [ 0,33;  0,79]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[34/44] Helper1:  0,55 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+53 - desporto - The musical term "Libretto" comes from an Italian word meaning what?
+Helper1: [ 0,35;  0,83]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[35/45] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+54 - desporto - Which of the following ailments is caused by a rhinovirus?
+Helper1: [ 0,36;  0,87]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[36/46] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+55 - desporto - Steve Carell stars in the title role of 2005's comedy "The 40 Year-Old" what?
+Helper1: [ 0,33;  0,81]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[36/47] Helper1:  0,55 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+56 - desporto - According to the proverb, "necessity is the mother of" what?
+Helper1: [ 0,85;  0,35]
+Helper2: [-0,23; -0,60]
+Helper3: [-0,12; -0,20]
+
+[36/48] Helper1:  0,56 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+57 - desporto - Which of these ingredients is not traditionally found in a BLT?
+Helper1: [ 0,36;  0,89]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[37/49] Helper1:  0,58 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+58 - desporto - Which of these is not a scale for measuring temperature? 
+Helper1: [ 0,38;  0,92]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[38/50] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+59 - desporto - By definition, which of these words is a term describing a group of apes?
+Helper1: [ 0,39;  0,95]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[39/51] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+60 - desporto - Which of these is not the nickname of a football team in the Pac-10 conference?
+Helper1: [ 0,40;  0,91]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[40/52] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+61 - desporto - What letter of the alphabet is also the name of a monthly U.S. fashion magazine?
+Helper1: [ 0,37;  0,94]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[41/53] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+62 - desporto - The U.S. body of water called Green Bay is an inlet of what Great Lake?
+Helper1: [ 0,35;  0,96]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[41/54] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+63 - desporto - When playing jacks, what does a player do right after picking up the jacks?
+Helper1: [ 0,36;  0,98]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[42/55] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+64 - desporto - In 2007, what film director's TV documentary claimed to have found Jesus's tomb?
+Helper1: [ 0,33;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[42/56] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+65 - desporto - In "Runaway Bride," what is the profession of Richard Gere's character?
+Helper1: [ 0,35;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[42/57] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+66 - desporto - Which of these U.S. states shares the longest border with Mexico?
+Helper1: [ 0,32;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[43/58] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+67 - desporto - Which of these 2000 movies features a character nicknamed Penny Lane?
+Helper1: [ 0,33;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[43/59] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+68 - desporto - Which of these well-known island destinations is not located in the Caribbean?
+Helper1: [ 0,31;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[44/60] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+69 - desporto - The song "Luck Be a Lady" is from what classic Broadway musical?
+Helper1: [ 0,32;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[45/61] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+70 - desporto - What do you call a pair of ones thrown in a single roll of dice?
+Helper1: [ 0,30;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[46/62] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+71 - desporto - Dolphinfish is often seen on menus with what alternate name? 
+Helper1: [ 0,31;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[47/63] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+72 - desporto - Danica Patrick is a young star in what sport?
+Helper1: [ 0,32;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[48/64] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+73 - desporto - Which of these people would most likely use a pom-pom?
+Helper1: [ 0,30;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[49/65] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+74 - desporto - What was President Lyndon B. Johnson's middle name?
+Helper1: [ 0,31;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[50/66] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+75 - desporto - Which "SXSW" city was dubbed "Live Music Capital of the World"?
+Helper1: [ 0,29;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[51/67] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+76 - desporto - In the Harry Potter books, what is the name given to a non-magical person?
+Helper1: [ 0,30;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[52/68] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+77 - desporto - In 2000, what company introduced the "Shox" athletic shoe?
+Helper1: [ 0,31;  0,97]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[53/69] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+78 - desporto - In what sport is a person most likely to hit an overhead smash?
+Helper1: [ 0,32;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[53/70] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+79 - desporto - The memoir "Running With Scissors" depicts the dysfunctional childhood of whom?
+Helper1: [ 0,33;  0,96]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[54/71] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+80 - desporto - The opening to "The Simpsons" usually features Bart writing on what surface?
+Helper1: [ 0,34;  0,92]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[55/72] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+81 - desporto - What kind of vehicles run in the Daytona 500?
+Helper1: [ 0,35;  0,95]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[55/73] Helper1:  0,60 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+82 - desporto - Dolphinfish is often seen on menus with what alternate name? 
+Helper1: [ 0,36;  0,97]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[56/74] Helper1:  0,61 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+83 - desporto - MTV anchor Kurt Loder co-wrote which singer's best-selling autobiography?
+Helper1: [ 0,37;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[57/75] Helper1:  0,62 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+84 - desporto - The German word "verboten" means what?
+Helper1: [ 0,38;  0,96]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[58/76] Helper1:  0,62 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+85 - desporto - The "funny bone" is a slang term referring to what area of the body?
+Helper1: [ 0,39;  0,98]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[59/77] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+86 - desporto - On a standard VCR, which of these buttons usually has a red dot on it?
+Helper1: [ 0,37;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[59/78] Helper1:  0,62 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+87 - desporto - The fantasy scenes in 1999's "American Beauty"  feature what recurring motif?
+Helper1: [ 0,38;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[60/79] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+88 - desporto - What color are the eyes of the "monster" known as envy?
+Helper1: [ 0,38;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[61/80] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+89 - desporto - Which of the following words is used to approximate the sound of a sneeze?
+Helper1: [ 0,39;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[62/81] Helper1:  0,64 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+90 - desporto - Hilary Duff starred on what show about a young girl dealing with life?
+Helper1: [ 0,40;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[62/82] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+91 - desporto - Influenced by ads and comics, which art movement draws from mass culture?
+Helper1: [ 0,41;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[63/83] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+92 - desporto - During the fall of Saigon in 1975, what song signaled Americans to evacuate?
+Helper1: [ 0,41;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[64/84] Helper1:  0,64 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+93 - desporto - By definition, if you are a viticulturist, which of these would you grow?
+Helper1: [ 0,42;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[64/85] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+94 - desporto - What athlete used a maneuver he dubbed the "rope-a-dope"?
+Helper1: [ 0,43;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[65/86] Helper1:  0,64 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+95 - desporto - Which vegetable is traditionally used to make "latkes," the popular Hanukkah dish?
+Helper1: [ 0,44;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[66/87] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+96 - desporto - According to the Irish saying, "May your purse always hold..." what?
+Helper1: [ 0,44;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[67/88] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+97 - desporto - Which of these restaurants had a commercial with four guys singing "My chalupa"?
+Helper1: [ 0,45;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[67/89] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+98 - desporto - Before he was president, Bill Clinton served as governor of what state?
+Helper1: [ 0,45;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[68/90] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+99 - desporto - Made from the agave plant, the alcohol mezcal originated in what country?
+Helper1: [ 0,44;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[69/91] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+100 - desporto - TV's "Reno 911!" follows a dysfunctional workplace environment set where?
+Helper1: [ 0,44;  0,99]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[70/92] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+101 - desporto - Made by Trappist monks since 1862, Chimay beer is produced where?
+Helper1: [ 0,45;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[71/93] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+102 - desporto - In what game must players stay behind a line called an "oche"?
+Helper1: [ 0,46;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[72/94] Helper1:  0,66 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Wrong Answer
+
+103 - desporto - The song "Luck Be a Lady" is from what classic Broadway musical?
+Helper1: [ 0,46;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[72/95] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+104 - desporto - A long-running series of commercials featured Mrs. Olson pitching what product?
+Helper1: [ 0,45;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[73/96] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+105 - desporto - Red and green are the traditional colors of which holiday? 
+Helper1: [ 0,45;  1,00]
+Helper2: [-0,60; -0,23]
+Helper3: [-0,20; -0,12]
+
+[74/97] Helper1:  0,65 <<<<<
+[0/0] Helper2: -0,21
+[5/7] Helper3:  0,03
+
+Correct Answer
+
+---------------------
+Punctuation: 80
+

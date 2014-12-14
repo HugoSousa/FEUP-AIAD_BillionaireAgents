@@ -1,0 +1,1159 @@
+
+1 - desporto - By definition, which of these is a specific point of congested traffic?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC] 
+[0/0] Helper3:  0,00 [NC]  <<<<<
+
+Correct Answer
+
+2 - desporto - Which of these is part of the island group called the Society Islands?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC] 
+[1/1] Helper3:  0,20 [NC]  <<<<<
+
+Wrong Answer
+
+3 - desporto - The process of inspecting goods and baggage entering a country is known as what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC] 
+[1/2] Helper3:  0,00 [NC]  <<<<<
+
+Wrong Answer
+
+4 - desporto - According to a popular cliche, which of these is "born every minute"?  
+Helper1: -
+Helper2: -
+Helper3: -
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC]  <<<<<
+[1/3] Helper3: -0,20 [NC] 
+
+Wrong Answer
+
+5 - desporto - Brothers Noel and Liam Gallagher led what popular '90s British rock band?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[0/0] Helper1:  0,00 [NC]  <<<<<
+[0/1] Helper2: -0,20 [NC] 
+[1/3] Helper3: -0,20 [NC] 
+
+Correct Answer
+
+6 - desporto - The TV series "American Idol" features everyday people competing for a what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[1/1] Helper1:  0,20 [NC]  <<<<<
+[0/1] Helper2: -0,20 [NC] 
+[1/3] Helper3: -0,20 [NC] 
+
+Correct Answer
+
+7 - desporto - By definition, which of these expressions refers to a past love?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[2/2] Helper1:  0,40 [NC] 
+[0/1] Helper2: -0,20 [NC] 
+[1/3] Helper3: -0,20 [NC]  <<<<<
+
+Correct Answer
+
+8 - desporto - Which of these words does not have a homophone?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[2/2] Helper1:  0,40 [NC]  <<<<<
+[0/1] Helper2: -0,20 [NC] 
+[2/4] Helper3:  0,00 [NC] 
+
+Correct Answer
+
+9 - desporto - Which of these is an informal word for a potato?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[3/3] Helper1:  0,60 [NC] 
+[0/1] Helper2: -0,20 [NC]  <<<<<
+[2/4] Helper3:  0,00 [NC] 
+
+Wrong Answer
+
+10 - desporto - The Old El Paso company makes what kind of food?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[3/3] Helper1:  0,60 [NC] 
+[0/2] Helper2: -0,40 [NC]  <<<<<
+[2/4] Helper3:  0,00 [NC] 
+
+Wrong Answer
+
+11 - desporto - What cloud formation means "curl of hair" in Latin?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[3/3] Helper1:  0,60 [NC]  <<<<<
+[0/3] Helper2: -0,60 [NC] 
+[2/4] Helper3:  0,00 [NC] 
+
+Correct Answer
+
+12 - desporto - Which "Star Trek" alumni is a spokesperson for Priceline.com? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[4/4] Helper1:  0,80 [NC] 
+[0/3] Helper2: -0,60 [NC]  <<<<<
+[2/4] Helper3:  0,00 [NC] 
+
+Correct Answer
+
+13 - desporto - When do math enthusiasts celebrate "Pi Day" ?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[4/4] Helper1:  0,80 [NC] 
+[1/4] Helper2: -0,40 [NC] 
+[2/4] Helper3:  0,00 [NC]  <<<<<
+
+Wrong Answer
+
+14 - desporto - What sporting event's headquarters is located in Wasilla, Alaska?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[4/4] Helper1:  0,80 [NC] 
+[1/4] Helper2: -0,40 [NC]  <<<<<
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+15 - desporto - Which of these is not one of the six official languages of the United Nations?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[4/4] Helper1:  0,80 [NC]  <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+16 - desporto - Which of these expressions is not an idiom of the word "exceed"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[5/5] Helper1:  1,00 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+17 - desporto - In the 1950s, Zenith's Dr. Robert Adler co-invented what landmark invention? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[5/6] Helper1:  0,67 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+18 - desporto - What NBA team did Julius "Dr. J" Erving play for from 1976 to 1987?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[5/7] Helper1:  0,43 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+19 - desporto - A podiatrist specializes in the medical care of what body part?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[5/8] Helper1:  0,25 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+20 - desporto - Which of these foods would most likely make a person's mouth pucker?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[6/9] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+21 - desporto - Who designed the first financially successful steamboat called the "Clermont"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[7/10] Helper1:  0,40 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+22 - desporto - What trendsetting singer created the fashion line L.A.M.B.?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[8/11] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+23 - desporto - Who is the host of TV's "American Idol"? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[9/12] Helper1:  0,50 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+24 - desporto - Which of these will give you the best view of the night sky?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[10/13] Helper1:  0,54 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+25 - desporto - What group scored their first Billboard hit in 1958 singing backup for Dion?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[11/14] Helper1:  0,57 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+26 - desporto - In basketball, what is the area just beneath and in front of the basket?  
+Helper1: -
+Helper2: -
+Helper3: -
+
+[12/15] Helper1:  0,60 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+27 - desporto - According to Greek mythology, Achilles was killed by an arrow shot by whom?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[13/16] Helper1:  0,63 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+28 - desporto - Introduced in 1928, what was the first brand of bubble gum sold in the U.S.?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[14/17] Helper1:  0,65 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+29 - desporto - What is the English translation of the French phrase "je ne sais quoi"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[15/18] Helper1:  0,67 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+30 - desporto - During the fall of Saigon in 1975, what song signaled Americans to evacuate?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[16/19] Helper1:  0,68 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+31 - desporto - Which of these birds is mostly nocturnal?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[16/20] Helper1:  0,60 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+32 - desporto - When the score of a baseball game is "seven up," how many runs have been scored?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[17/21] Helper1:  0,62 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+33 - desporto - Which of these people would most likely use a pom-pom?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[17/22] Helper1:  0,55 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+34 - desporto - What was the last judge on the field to be added to the NFL officiating team? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[17/23] Helper1:  0,48 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+35 - desporto - Justin Timberlake scored a 2006 hit with what song?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[17/24] Helper1:  0,42 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+36 - desporto - National Arbor Day is celebrated in what month?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[18/25] Helper1:  0,44 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+37 - desporto - What was the first name of baseball legend Babe Ruth?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[18/26] Helper1:  0,38 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+38 - desporto - Who portrays Chandler Bing's drag queen father on the TV comedy "Friends"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[19/27] Helper1:  0,41 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+39 - desporto - What type of weather phenomenon is a sirocco?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[20/28] Helper1:  0,43 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+40 - desporto - In a standard deck of playing cards, the suits are usually what two colors?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[21/29] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+41 - desporto - The BBC, a famed broadcasting company, began in the 1920s in what country?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[22/30] Helper1:  0,47 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+42 - desporto - What sport is known as "The Sport of Kings"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[23/31] Helper1:  0,48 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+43 - desporto - A higher octane gasoline will often prevent a car engine from doing what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[24/32] Helper1:  0,50 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+44 - desporto - Which of these comic book superheroes is not from the planet Earth?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[24/33] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+45 - desporto - Which outspoken former supermodel launched her own Oxygen reality show in 2006?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[25/34] Helper1:  0,47 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+46 - desporto - Which world capital shares its name with a common variety of apple?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[25/35] Helper1:  0,43 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+47 - desporto - In 2001, Barry Bonds broke whose single season home run record with 73 dingers?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[26/36] Helper1:  0,44 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+48 - desporto - Which president appointed Janet Reno as the first female Attorney General? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[26/37] Helper1:  0,41 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+49 - desporto - To determine when spring will arrive, what animal is observed every February?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[26/38] Helper1:  0,37 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+50 - desporto - Which of these U.S. states borders more than two other U.S. states?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[26/39] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+51 - desporto - The Secretary-General of the United Nations serves a term of how many years?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[26/40] Helper1:  0,30 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+52 - desporto - Which of these was once known as "The Great National Temperance Beverage"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[27/41] Helper1:  0,32 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+53 - desporto - According to a superstition, what should you do to wood to ward off bad luck?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[28/42] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+54 - desporto - A.C. Gilbert, an Olympic gold medal pole-vaulter, invented what popular toy?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[29/43] Helper1:  0,35 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+55 - desporto - On TV's "Sex and the City," Big's name was revealed in the last episode as what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[30/44] Helper1:  0,36 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+56 - desporto - Which of these actions is against the rules in basketball?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[30/45] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+57 - desporto - The majority of the world's diamonds come from what continent?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[31/46] Helper1:  0,35 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+58 - desporto - Chelsea, Hell's Kitchen and Tribeca are neighborhoods in what city?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[32/47] Helper1:  0,36 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+59 - desporto - In the U.S., Columbus Day is celebrated in what month?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[33/48] Helper1:  0,38 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+60 - desporto - What real-world personality was the first to become a G.I. Joe action figure?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[34/49] Helper1:  0,39 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+61 - desporto - Excluding sperm & egg, how many chromosomes are found in human body cells? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[35/50] Helper1:  0,40 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+62 - desporto - In the '99 film "Analyze This," Robert De Niro's character has what profession?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[35/51] Helper1:  0,37 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+63 - desporto - The Seine River empties into which of these bodies of water?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[35/52] Helper1:  0,35 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+64 - desporto - When first introduced, which of these classic games required batteries to play?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[36/53] Helper1:  0,36 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+65 - desporto - What is the real first name of the basketball legend known as "Dr. J"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[36/54] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+66 - desporto - In March 2007, businessman Arun Nayar wed which British model?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[37/55] Helper1:  0,35 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+67 - desporto - Which brand of paper towel is advertised as "the quicker picker upper"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[37/56] Helper1:  0,32 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+68 - desporto - The first Olympic Games, in 776 BC, consisted of what one event?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[38/57] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+69 - desporto - Which of these games is known as "noughts and crosses" in England?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[38/58] Helper1:  0,31 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+70 - desporto - In a surprising 2007 plot twist, what Marvel Comics superhero was shot by an assassin and pronounced dead?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[39/59] Helper1:  0,32 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+71 - desporto - The TV series "Twin Peaks" is set in a fictional town in what area of the U.S.?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[39/60] Helper1:  0,30 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+72 - desporto - The famous Delano Hotel is located in which of these cities?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[40/61] Helper1:  0,31 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+73 - desporto - Old salt is a slang phrase for a person who has worked as a what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[41/62] Helper1:  0,32 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+74 - desporto - Palm Beach County ballots used in the 2000 election were commonly called what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[41/63] Helper1:  0,30 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+75 - desporto - A minor role in a film or play is called what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[42/64] Helper1:  0,31 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+76 - desporto - To bring something to light means to do what to it?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[42/65] Helper1:  0,29 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+77 - desporto - Which of these letters does not exist in the traditional Hawaiian alphabet?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[43/66] Helper1:  0,30 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+78 - desporto - Which of these can have "hospital corners"?  
+Helper1: -
+Helper2: -
+Helper3: -
+
+[44/67] Helper1:  0,31 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+79 - desporto - According to a saying, what kind of person "sees the glass as half full"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[45/68] Helper1:  0,32 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+80 - desporto - In the fairy tale, what building material does one of the Three Little Pigs use?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[46/69] Helper1:  0,33 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+81 - desporto - What tool is used by croupiers to move dice and money in a casino craps game?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[47/70] Helper1:  0,34 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+82 - desporto - How many U.S. state names start with the word "New"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[48/71] Helper1:  0,35 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+83 - desporto - The musical term "Libretto" comes from an Italian word meaning what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[49/72] Helper1:  0,36 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+84 - desporto - On a typical baseball scorecard, what position is represented by the number "5"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[50/73] Helper1:  0,37 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+85 - desporto - Who was the first U.S. president born in a hospital?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[51/74] Helper1:  0,38 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+86 - desporto - What brand name roughly translates to "attack" in Japanese?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[52/75] Helper1:  0,39 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+87 - desporto - Which outspoken former supermodel launched her own Oxygen reality show in 2006?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[52/76] Helper1:  0,37 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+88 - desporto - What was the "Alan Parsons Project"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[53/77] Helper1:  0,38 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+89 - desporto - In an '80s ad, a woman says "Calgon, take me away" and finds herself where? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[54/78] Helper1:  0,38 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+90 - desporto - The opening to "The Simpsons" usually features Bart writing on what surface?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[55/79] Helper1:  0,39 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+91 - desporto - In the '91 film "The Silence of the Lambs," who played agent Clarice Starling?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[56/80] Helper1:  0,40 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+92 - desporto - A hertz is a unit of measurement for what scientific property?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[57/81] Helper1:  0,41 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+93 - desporto - A luthier is a craftsman who makes which of the following?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[58/82] Helper1:  0,41 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+94 - desporto - What real-world personality was the first to become a G.I. Joe action figure?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[59/83] Helper1:  0,42 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+95 - desporto - What horror movie icon narrated the animated "How the Grinch Stole Christmas"? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[60/84] Helper1:  0,43 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+96 - desporto - What dreamy TV doctor played a nerdy guy in the '80s film "Can't Buy Me Love"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[61/85] Helper1:  0,44 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+97 - desporto - What is the name of the area on a golf course where players start every hole?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[62/86] Helper1:  0,44 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+98 - desporto - Which of these words does not have a homophone?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[63/87] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+99 - desporto - Where in the body are the pectoral muscles located? 
+Helper1: -
+Helper2: -
+Helper3: -
+
+[64/88] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+100 - desporto - In the Hawaiian Islands, a wreath of flowers worn around the neck is a what?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[64/89] Helper1:  0,44 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+101 - desporto - Which of the following is not considered an Ivy League university?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[65/90] Helper1:  0,44 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+102 - desporto - Which of these is not considered part of horse racing's "Triple Crown"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[66/91] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+103 - desporto - What annual college football game is known as "The Granddaddy of Them All"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[67/92] Helper1:  0,46 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+104 - desporto - What kind of cows most commonly feature a black and white color pattern?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[68/93] Helper1:  0,46 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Wrong Answer
+
+105 - desporto - Who won the 1988 100-meter gold medal after Ben Johnson was disqualified?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[68/94] Helper1:  0,45 <<<<<
+[1/5] Helper2: -0,60
+[2/5] Helper3: -0,20
+
+Correct Answer
+
+---------------------
+Punctuation: 72
+

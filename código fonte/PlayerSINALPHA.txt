@@ -1,0 +1,1159 @@
+
+1 - desporto - What time is it if it is "half past 5"?
+Helper3: -
+Helper1: -
+Helper2: -
+
+[0/0] Helper3:  0,00 <<<<<
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+
+Wrong Answer
+
+2 - desporto - What kind of movies are sometimes called "oaters"?
+Helper3: [ 0,20]
+Helper1: -
+Helper2: -
+
+[0/1] Helper3: -0,02
+[0/0] Helper1:  0,00 <<<<<
+[0/0] Helper2:  0,00
+
+Correct Answer
+
+3 - desporto - Which of these sports is played with a hard ball called a "pelota"?
+Helper3: [ 0,20]
+Helper1: -
+Helper2: [ 0,20]
+
+[0/1] Helper3: -0,02
+[1/1] Helper1:  0,08 <<<<<
+[0/0] Helper2:  0,06
+
+Correct Answer
+
+4 - desporto - Which of these is a main source of trans fat?
+Helper3: [ 0,20]
+Helper1: -
+Helper2: [ 0,20]
+
+[0/1] Helper3: -0,02
+[2/2] Helper1:  0,16 <<<<<
+[0/0] Helper2:  0,06
+
+Correct Answer
+
+5 - desporto - In "Meet the Robinsons," the one-eyed purple butler named Lefty is a what?
+Helper3: [ 0,02]
+Helper1: -
+Helper2: [ 0,20]
+
+[0/1] Helper3: -0,08
+[3/3] Helper1:  0,23 <<<<<
+[0/0] Helper2:  0,06
+
+Correct Answer
+
+6 - desporto - In "The Lord of the Rings," what happens to Frodo when he puts on the ring?
+Helper3: [ 0,02]
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+
+[0/1] Helper3: -0,08
+[4/4] Helper1:  0,28 <<<<<
+[0/0] Helper2:  0,06
+
+Wrong Answer
+
+7 - desporto - What host from "Everyday Italian" on the Food Network is not an "Iron Chef"?
+Helper3: [ 0,02]
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+
+[0/1] Helper3: -0,08
+[4/5] Helper1:  0,20 <<<<<
+[0/0] Helper2:  0,06
+
+Wrong Answer
+
+8 - desporto - In 2007, Angelina Jolie adopted her son Pax from what country?
+Helper3: [ 0,02]
+Helper1: [ 0,20]
+Helper2: [ 0,00]
+
+[0/1] Helper3: -0,08
+[4/6] Helper1:  0,11 <<<<<
+[0/0] Helper2:  0,00
+
+Wrong Answer
+
+9 - desporto - The musical term "Libretto" comes from an Italian word meaning what?
+Helper3: [ 0,02]
+Helper1: [ 0,20]
+Helper2: [ 0,02]
+
+[0/1] Helper3: -0,08
+[4/7] Helper1:  0,03 <<<<<
+[0/0] Helper2:  0,01
+
+Correct Answer
+
+10 - desporto - In the 2006 best-selling book "The Ruins," tourists confront a menace where?
+Helper3: [ 0,05]
+Helper1: [ 0,20]
+Helper2: [ 0,02]
+
+[0/1] Helper3: -0,07
+[5/8] Helper1:  0,09 <<<<<
+[0/0] Helper2:  0,01
+
+Correct Answer
+
+11 - desporto - The American Kennel Club recognizes which of these dog breeds as sporting dogs?
+Helper3: [ 0,20]
+Helper1: [ 0,20]
+Helper2: [ 0,02]
+
+[0/1] Helper3: -0,02
+[6/9] Helper1:  0,14 <<<<<
+[0/0] Helper2:  0,01
+
+Correct Answer
+
+12 - desporto - In what game must players stay behind a line called an "oche"?
+Helper3: [ 0,20]
+Helper1: [ 0,20]
+Helper2: [ 0,05]
+
+[0/1] Helper3: -0,02
+[7/10] Helper1:  0,20 <<<<<
+[0/0] Helper2:  0,02
+
+Correct Answer
+
+13 - desporto - The term "spam" for junk e-mail was inspired by a sketch on what TV series?
+Helper3: [ 0,20]
+Helper1: [ 0,20]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[8/11] Helper1:  0,25 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+14 - desporto - Which of the following U.S. presidents was not born in Massachusetts?
+Helper3: [ 0,20]
+Helper1: [ 0,20]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[9/12] Helper1:  0,30 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+15 - desporto - In 1993, what computer company introduced the Pentium chip?
+Helper3: [ 0,20]
+Helper1: [ 0,20]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[10/13] Helper1:  0,35 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+16 - desporto - In bowling scores, what letter represents a strike?
+Helper3: [ 0,20]
+Helper1: [ 1,00]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[11/14] Helper1:  0,64 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+17 - desporto - In Nick Hornby's novel "A Long Way Down," strangers make a pact on what day?
+Helper3: [ 0,20]
+Helper1: [ 1,00]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[11/15] Helper1:  0,57 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+18 - desporto - Where are the smallest bones in the human body?
+Helper3: [ 0,20]
+Helper1: [ 1,00]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[11/16] Helper1:  0,49 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+19 - desporto - Max, George Clooney's longtime pet, was what kind of animal?  
+Helper3: [ 0,20]
+Helper1: [ 1,00]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[12/17] Helper1:  0,54 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+20 - desporto - Which of these traits is unique to a skeleton key?
+Helper3: [ 0,20]
+Helper1: [ 1,00]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[13/18] Helper1:  0,59 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+21 - desporto - Isotopes of an element differ in the number of which of these?
+Helper3: [ 0,20]
+Helper1: [ 0,80]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[14/19] Helper1:  0,58 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+22 - desporto - Who scored a hit on the Billboard charts in 2004 with her song "Redneck Woman"?
+Helper3: [ 0,20]
+Helper1: [ 0,82]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[15/20] Helper1:  0,63 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+23 - desporto - According to a popular cliche, which of these is "born every minute"?  
+Helper3: [ 0,20]
+Helper1: [ 0,83]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[16/21] Helper1:  0,68 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+24 - desporto - According to Greek mythology, Achilles was killed by an arrow shot by whom?
+Helper3: [ 0,20]
+Helper1: [ 0,85]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[17/22] Helper1:  0,73 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+25 - desporto - Which of these musical instruments is not in the brass family?
+Helper3: [ 0,20]
+Helper1: [ 0,71]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[18/23] Helper1:  0,73 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+26 - desporto - What actress starred in the TV show "Party of Five" and the 1996 film "Scream"?
+Helper3: [ 0,20]
+Helper1: [ 0,73]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[19/24] Helper1:  0,77 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+27 - desporto - In bowling scores, what letter represents a strike?
+Helper3: [ 0,20]
+Helper1: [ 0,63]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[20/25] Helper1:  0,77 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+28 - desporto - According to the classic ads for Brylcreem, how much will "do ya"?
+Helper3: [ 0,20]
+Helper1: [ 0,53]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[21/26] Helper1:  0,77 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+29 - desporto - Which of these animals cannot breathe underwater?
+Helper3: [ 0,20]
+Helper1: [ 0,44]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[22/27] Helper1:  0,77 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+30 - desporto - Which of these animals is not warm-blooded?
+Helper3: [ 0,20]
+Helper1: [ 0,37]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[22/28] Helper1:  0,71 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+31 - desporto - According to Greek mythology, Achilles was killed by an arrow shot by whom?
+Helper3: [ 0,20]
+Helper1: [ 0,40]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[23/29] Helper1:  0,74 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+32 - desporto - In the adage, "A man who is his own lawyer has a" what "for a client"?
+Helper3: [ 0,20]
+Helper1: [ 0,43]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[24/30] Helper1:  0,78 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+33 - desporto - What sport made Italy's Alberto Tomba famous?
+Helper3: [ 0,20]
+Helper1: [ 0,45]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[24/31] Helper1:  0,75 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+34 - desporto - In his 1991 top ten song, Rod Stewart sings about the "Rhythm of My" what?
+Helper3: [ 0,20]
+Helper1: [ 0,39]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[25/32] Helper1:  0,75 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+35 - desporto - A minor role in a film or play is called what?
+Helper3: [ 0,20]
+Helper1: [ 0,33]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[26/33] Helper1:  0,76 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+36 - desporto - What heavenly body was demoted to "dwarf planet" by astronomers in 2006?
+Helper3: [ 0,20]
+Helper1: [ 0,36]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[27/34] Helper1:  0,78 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+37 - desporto - The West End is a renowned theatre district in what world city?
+Helper3: [ 0,20]
+Helper1: [ 0,38]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[28/35] Helper1:  0,80 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+38 - desporto - What is the term for the rear of a car sliding back and forth out of control?
+Helper3: [ 0,20]
+Helper1: [ 0,41]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[29/36] Helper1:  0,82 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+39 - desporto - If you "come about" and then start "trimming," you are in what kind of vehicle?
+Helper3: [ 0,20]
+Helper1: [ 0,43]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[29/37] Helper1:  0,81 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+40 - desporto - According to the famous saying, "When in Rome," what? 
+Helper3: [ 0,20]
+Helper1: [ 0,45]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[30/38] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+41 - desporto - Which of these is a main source of trans fat?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[31/39] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+42 - desporto - What part of a basil plant is usually used as a spice?
+Helper3: [ 0,20]
+Helper1: [ 0,48]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[32/40] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+43 - desporto - In the movie "The Hunt for Red October," the Red October is from what country?
+Helper3: [ 0,20]
+Helper1: [ 0,50]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[33/41] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+44 - desporto - What ingredient gives guacamole its green color?
+Helper3: [ 0,20]
+Helper1: [ 0,52]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[34/42] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+45 - desporto - In "Peter Pan," what is the name of the title character's tiny magical friend?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[35/43] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+46 - desporto - Which of the following is not a form of billiards?
+Helper3: [ 0,20]
+Helper1: [ 0,49]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[36/44] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+47 - desporto - On the Richter scale, a 6.0 earthquake is how many times stronger than a 3.0?
+Helper3: [ 0,20]
+Helper1: [ 0,44]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[37/45] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+48 - desporto - Made from the agave plant, the alcohol mezcal originated in what country?
+Helper3: [ 0,20]
+Helper1: [ 0,46]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[38/46] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+49 - desporto - Which is a freestanding, colonnaded structure built of stone and concrete?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[38/47] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+50 - desporto - In the '99 film "Analyze This," Robert De Niro's character has what profession?
+Helper3: [ 0,20]
+Helper1: [ 0,49]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[38/48] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+51 - desporto - What A&E documentary show features people confronting their addictions?
+Helper3: [ 0,20]
+Helper1: [ 0,45]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[39/49] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+52 - desporto - In the 2003 film "Finding Nemo," seagulls feverishly repeat what word?
+Helper3: [ 0,20]
+Helper1: [ 0,41]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[40/50] Helper1:  0,82 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+53 - desporto - In 2006, Secretary of Defense Donald Rumsfeld was replaced by whom? 
+Helper3: [ 0,20]
+Helper1: [ 0,43]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[41/51] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+54 - desporto - Which of these is part of the island group called the Society Islands?
+Helper3: [ 0,20]
+Helper1: [ 0,44]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[42/52] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+55 - desporto - At the Lincoln Memorial, the statue of Abraham Lincoln is seated on what?
+Helper3: [ 0,20]
+Helper1: [ 0,45]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[42/53] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+56 - desporto - Which was introduced in 1893 at the World's Columbian Exposition in Chicago?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[42/54] Helper1:  0,82 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+57 - desporto - Which president appointed Janet Reno as the first female Attorney General? 
+Helper3: [ 0,20]
+Helper1: [ 0,48]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[43/55] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+58 - desporto - In the '84 movie "Splash," the mermaid takes her name from what famous avenue?
+Helper3: [ 0,20]
+Helper1: [ 0,49]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[44/56] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+59 - desporto - What sport is played at the Wimbledon Championships?
+Helper3: [ 0,20]
+Helper1: [ 0,46]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[44/57] Helper1:  0,82 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+60 - desporto - What was the first name of baseball legend Babe Ruth?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[45/58] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+61 - desporto - In the song "America the Beautiful," what is described as "shining"?
+Helper3: [ 0,20]
+Helper1: [ 0,48]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[46/59] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+62 - desporto - In the works of Shakespeare,"Beware the Ides of March," was a warning to whom?
+Helper3: [ 0,20]
+Helper1: [ 0,45]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[47/60] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+63 - desporto - What is usually listed on a person's rap sheet?
+Helper3: [ 0,20]
+Helper1: [ 0,46]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[48/61] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+64 - desporto - Which of these trees has "needles"?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[49/62] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+65 - desporto - According to their ads, Transformers action figures are what "in disguise"?
+Helper3: [ 0,20]
+Helper1: [ 0,48]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[49/63] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+66 - desporto - How many time zones cross the contiguous United States of America?
+Helper3: [ 0,20]
+Helper1: [ 0,49]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[49/64] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+67 - desporto - Which of these objects was designed to protect the finger while sewing?
+Helper3: [ 0,20]
+Helper1: [ 0,46]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[49/65] Helper1:  0,80 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+68 - desporto - In a wedding, what is the female equivalent of the best man?
+Helper3: [ 0,20]
+Helper1: [ 0,47]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[50/66] Helper1:  0,82 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+69 - desporto - Which of these '80s novels has an unnamed protagonist? 
+Helper3: [ 0,20]
+Helper1: [ 0,48]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[51/67] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+70 - desporto - The Seine River empties into which of these bodies of water?
+Helper3: [ 0,20]
+Helper1: [ 0,49]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[52/68] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+71 - desporto - On TV's "Sex and the City," Big's name was revealed in the last episode as what?
+Helper3: [ 0,20]
+Helper1: [ 0,50]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[53/69] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+72 - desporto - Which of these condiments is made by combining eggs and oil?
+Helper3: [ 0,20]
+Helper1: [ 0,51]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[54/70] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+73 - desporto - Which of these is another name for the herb cilantro?
+Helper3: [ 0,20]
+Helper1: [ 0,48]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[54/71] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+74 - desporto - Traditionally, what flavor is a candy cane? 
+Helper3: [ 0,20]
+Helper1: [ 0,49]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[55/72] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+75 - desporto - Of the Seven Wonders of the Ancient World, which is still standing?
+Helper3: [ 0,20]
+Helper1: [ 0,50]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[56/73] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+76 - desporto - What company was cartoonist Scott Adams working for when he created "Dilbert"?
+Helper3: [ 0,20]
+Helper1: [ 0,51]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[56/74] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+77 - desporto - The white area of the human eye is called what? 
+Helper3: [ 0,20]
+Helper1: [ 0,52]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[56/75] Helper1:  0,84 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+78 - desporto - According to their ads, Transformers action figures are what "in disguise"?
+Helper3: [ 0,20]
+Helper1: [ 0,52]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[56/76] Helper1:  0,81 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+79 - desporto - The American Kennel Club recognizes which of these dog breeds as sporting dogs?
+Helper3: [ 0,20]
+Helper1: [ 0,53]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[57/77] Helper1:  0,83 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+80 - desporto - What is the student who ranks first academically in his graduating class called?
+Helper3: [ 0,20]
+Helper1: [ 0,54]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[58/78] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+81 - desporto - What A&E documentary show features people confronting their addictions?
+Helper3: [ 0,20]
+Helper1: [ 0,54]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[59/79] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+82 - desporto - In Nick Hornby's novel "A Long Way Down," strangers make a pact on what day?
+Helper3: [ 0,20]
+Helper1: [ 0,55]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[59/80] Helper1:  0,85 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+83 - desporto - What is the name of the area on a golf course where players start every hole?
+Helper3: [ 0,20]
+Helper1: [ 0,56]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[60/81] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+84 - desporto - Which of these states does not have an inland state capital?
+Helper3: [ 0,20]
+Helper1: [ 0,56]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[61/82] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+85 - desporto - Which of these will give you the best view of the night sky?
+Helper3: [ 0,20]
+Helper1: [ 0,57]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[62/83] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+86 - desporto - What would you do with a Singapore Sling?
+Helper3: [ 0,20]
+Helper1: [ 0,55]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[63/84] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+87 - desporto - In what year did the NBA Finals begin?
+Helper3: [ 0,20]
+Helper1: [ 0,55]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[63/85] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+88 - desporto - Tesla Motors, a startup electric car company, is named for the inventor of what?
+Helper3: [ 0,20]
+Helper1: [ 0,53]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[64/86] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+89 - desporto - What color, when mixed with black, produces gray?
+Helper3: [ 0,20]
+Helper1: [ 0,54]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[65/87] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+90 - desporto - In what book is the young hero pitted against the villain Long John Silver?
+Helper3: [ 0,20]
+Helper1: [ 0,54]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[65/88] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+91 - desporto - What former supermodel plays "Stacy's Mom" in the 2003 Fountains of Wayne video?
+Helper3: [ 0,20]
+Helper1: [ 0,55]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[66/89] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+92 - desporto - What is the tallest waterfall in the world?
+Helper3: [ 0,20]
+Helper1: [ 0,53]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[67/90] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+93 - desporto - Which of these is not the nickname of a football team in the Pac-10 conference?
+Helper3: [ 0,20]
+Helper1: [ 0,54]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[68/91] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+94 - desporto - What sports figure describes his ethnic background as "Cablinasian"?
+Helper3: [ 0,20]
+Helper1: [ 0,54]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[69/92] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+95 - desporto - Before being traded to the Giants, Eli Manning was the first draft pick for who?
+Helper3: [ 0,20]
+Helper1: [ 0,55]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[70/93] Helper1:  0,86 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+96 - desporto - In the 1997 film "Titanic," what is "The Heart of the Ocean"?
+Helper3: [ 0,20]
+Helper1: [ 0,55]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[71/94] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+97 - desporto - Patagonia is a region that borders what mountain range?
+Helper3: [ 0,20]
+Helper1: [ 0,56]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[72/95] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+98 - desporto - Owners of the James Bond film franchise have what vegetable-sounding name?
+Helper3: [ 0,20]
+Helper1: [ 0,56]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[73/96] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+99 - desporto - The Romanovs were once the royal family of what country?
+Helper3: [ 0,20]
+Helper1: [ 0,57]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[74/97] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+100 - desporto - What was the last judge on the field to be added to the NFL officiating team? 
+Helper3: [ 0,20]
+Helper1: [ 0,57]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[74/98] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+101 - desporto - Figures of what mythical creatures are typically found in English gardens?
+Helper3: [ 0,20]
+Helper1: [ 0,58]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[75/99] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+102 - desporto - A long-running series of commercials featured Mrs. Olson pitching what product?
+Helper3: [ 0,20]
+Helper1: [ 0,58]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[76/100] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Wrong Answer
+
+103 - desporto - Which of these cough medicines claims to have "vapor action"?
+Helper3: [ 0,20]
+Helper1: [ 0,59]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[76/101] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+104 - desporto - According to the fruity cereal brand slogan, "Silly rabbit! Trix are for" who?
+Helper3: [ 0,20]
+Helper1: [ 0,59]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[77/102] Helper1:  0,88 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+105 - desporto - Of the five oceans covering about 71% of the world, which is the smallest?
+Helper3: [ 0,20]
+Helper1: [ 0,57]
+Helper2: [-0,60]
+
+[0/1] Helper3: -0,02
+[78/103] Helper1:  0,87 <<<<<
+[0/0] Helper2: -0,18
+
+Correct Answer
+
+---------------------
+Punctuation: 79
+

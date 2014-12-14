@@ -1,0 +1,169 @@
+
+1 - desporto - What is the name for the part of a song that repeats a number of times?
+Helper1: -
+Helper2: -
+Helper3: [ 0,20;  0,08]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[0/0] Helper3:  0,07 <<<<<
+
+Correct Answer
+
+2 - desporto - When building up a "nest egg," what does a young couple traditionally save?
+Helper1: -
+Helper2: -
+Helper3: [ 0,20;  0,16]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[1/1] Helper3:  0,27 <<<<<
+
+Correct Answer
+
+3 - desporto - On a 35mm camera, the "35mm" is a measure of what?
+Helper1: -
+Helper2: -
+Helper3: [ 0,20;  0,04]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[2/2] Helper3:  0,31 <<<<<
+
+Correct Answer
+
+4 - desporto - What Vermonter founded a brand that has been called the "Nike of snowboarding"?
+Helper1: -
+Helper2: [ 0,20]
+Helper3: [ 0,20; -0,08]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,07
+[3/3] Helper3:  0,31 <<<<<
+
+Correct Answer
+
+5 - desporto - In "This Is Spinal Tap," which of these was one of the band's original names?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,20; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,07
+[4/4] Helper3:  0,29 <<<<<
+
+Correct Answer
+
+6 - desporto - Dolphinfish is often seen on menus with what alternate name? 
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,08]
+Helper3: [ 0,20; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,07
+[5/5] Helper3:  0,30 <<<<<
+
+Correct Answer
+
+7 - desporto - In what book is the young hero pitted against the villain Long John Silver?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,16]
+Helper3: [ 0,20; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,09
+[6/6] Helper3:  0,30 <<<<<
+
+Correct Answer
+
+8 - desporto - In the 1997 film "Titanic," what is "The Heart of the Ocean"?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,23]
+Helper3: [ 0,20; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,11
+[7/7] Helper3:  0,31 <<<<<
+
+Correct Answer
+
+9 - desporto - What magician is known as the "hip-hop Houdini"?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,31]
+Helper3: [ 0,20; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,13
+[8/8] Helper3:  0,31 <<<<<
+
+Wrong Answer
+
+10 - desporto - In 2006, what nation's royals saw the birth of the first male heir in 41 years?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,20]
+Helper3: [ 1,00; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,10
+[8/9] Helper3:  0,49 <<<<<
+
+Wrong Answer
+
+11 - desporto - When a movie director wants to begin shooting, he yells "Lights, camera," what?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,08]
+Helper3: [ 1,00; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,07
+[8/10] Helper3:  0,44 <<<<<
+
+Correct Answer
+
+12 - desporto - Which Olympic high jumper created a technique that bears his name?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,16]
+Helper3: [ 1,00; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,09
+[9/11] Helper3:  0,45 <<<<<
+
+Wrong Answer
+
+13 - desporto - The French region of Dijon is well-known for a type of which condiment?
+Helper1: [ 0,20]
+Helper2: [ 0,20;  0,04]
+Helper3: [ 0,71; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,06
+[9/12] Helper3:  0,32 <<<<<
+
+Wrong Answer
+
+14 - desporto - Newspaper columnist Liz Smith writes primarily about what subject?
+Helper1: [ 0,20]
+Helper2: [ 0,20; -0,08]
+Helper3: [ 0,71; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,03
+[9/13] Helper3:  0,29 <<<<<
+
+Correct Answer
+
+15 - desporto - What film villain often poses by holding his pinkie to his lip in a saucy way?
+Helper1: [ 0,20]
+Helper2: [ 1,00; -0,20]
+Helper3: [ 0,71; -0,20]
+
+[0/0] Helper1:  0,07
+[0/0] Helper2:  0,20
+[10/14] Helper3:  0,30 <<<<<
+
+Correct Answer
+
+---------------------
+Punctuation: 11
+

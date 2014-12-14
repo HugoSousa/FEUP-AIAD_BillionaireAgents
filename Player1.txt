@@ -1,0 +1,169 @@
+
+1 - desporto - What number, when written in Roman numerals, spells the word "MIX"?
+Helper1: -
+Helper2: -
+Helper3: -
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC] 
+[0/0] Helper3:  0,00 [NC]  <<<<<
+
+Correct Answer
+
+2 - desporto - Which of these letters is the name of a note on the musical scale?
+Helper1: -
+Helper2: -
+Helper3: [ 0,08;  0,33]
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC] 
+[1/1] Helper3:  0,20 [NC]  <<<<<
+
+Correct Answer
+
+3 - desporto - Which aviator won a Pulitzer for the autobiography "The Spirit of St. Louis"?
+Helper1: -
+Helper2: -
+Helper3: [ 0,16;  0,50]
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC] 
+[2/2] Helper3:  0,36 [NC]  <<<<<
+
+Correct Answer
+
+4 - desporto - Which of these words is in plural form?
+Helper1: -
+Helper2: -
+Helper3: [ 0,04;  0,60]
+
+[0/0] Helper1:  0,00 [NC] 
+[0/0] Helper2:  0,00 [NC]  <<<<<
+[3/3] Helper3:  0,46 [NC] 
+
+Correct Answer
+
+5 - desporto - Fig Newtons were originally named "Newtons" after a suburb of what U.S. city?
+Helper1: -
+Helper2: -
+Helper3: [ 0,67; -0,08]
+
+[0/0] Helper1:  0,00 [NC]  <<<<<
+[1/1] Helper2:  0,20 [NC] 
+[3/3] Helper3:  0,45 [NC] 
+
+Correct Answer
+
+6 - desporto - What culture holds that all life was created during a period called "dreamtime"?
+Helper1: -
+Helper2: -
+Helper3: [-0,20;  0,71]
+
+[1/1] Helper1:  0,20 [NC] 
+[1/1] Helper2:  0,20 [NC]  <<<<<
+[3/3] Helper3:  0,43 [NC] 
+
+Correct Answer
+
+7 - desporto - When you see a lunar eclipse from Earth, what would a person on the moon see?
+Helper1: -
+Helper2: [ 0,08]
+Helper3: [ 0,75; -0,20]
+
+[1/1] Helper1:  0,20 [NC] 
+[2/2] Helper2:  0,22 [NC]  <<<<<
+[3/3] Helper3:  0,44 [NC] 
+
+Correct Answer
+
+8 - desporto - Which of these foods would most likely make a person's mouth pucker?
+Helper1: -
+Helper2: [ 0,16]
+Helper3: [-0,20;  0,78]
+
+[1/1] Helper1:  0,20 [NC]  <<<<<
+[3/3] Helper2:  0,34 [NC] 
+[3/3] Helper3:  0,45 [NC] 
+
+Correct Answer
+
+9 - desporto - Who is the host of TV's "American Idol"? 
+Helper1: -
+Helper2: [ 0,23]
+Helper3: [-0,20;  0,80]
+
+[2/2] Helper1:  0,40 [NC] 
+[3/3] Helper2:  0,36 [NC] 
+[3/3] Helper3:  0,45 [NC]  <<<<<
+
+Correct Answer
+
+10 - desporto - In what state did President Abraham Lincoln deliver "The Gettysburg Address"?
+Helper1: -
+Helper2: [ 0,31]
+Helper3: [-0,20;  0,64]
+
+[2/2] Helper1:  0,40 [NC] 
+[3/3] Helper2:  0,38 [NC] 
+[4/4] Helper3:  0,51 [NC]  <<<<<
+
+Correct Answer
+
+11 - desporto - What animal has historically been considered "man's best friend"?
+Helper1: -
+Helper2: [ 0,20]
+Helper3: [ 0,50; -0,20]
+
+[2/2] Helper1:  0,40 [NC] 
+[3/3] Helper2:  0,35 [NC] 
+[5/5] Helper3:  0,58 <<<<<
+
+Correct Answer
+
+12 - desporto - During his NASCAR career, what was the main color of Dale Earnhardt's racecar?
+Helper1: -
+Helper2: [ 0,08]
+Helper3: [ 0,54; -0,20]
+
+[2/2] Helper1:  0,40 [NC] 
+[3/3] Helper2:  0,32 [NC]  <<<<<
+[6/6] Helper3:  0,59
+
+Correct Answer
+
+13 - desporto - Which of these artists is associated with "cubism"?  
+Helper1: -
+Helper2: [ 0,16]
+Helper3: [-0,20;  0,43]
+
+[2/2] Helper1:  0,40 [NC] 
+[4/4] Helper2:  0,44 [NC] 
+[6/6] Helper3:  0,56 <<<<<
+
+Wrong Answer
+
+14 - desporto - Which of these birds is mostly nocturnal?
+Helper1: -
+Helper2: [ 0,04]
+Helper3: [ 0,33; -0,20]
+
+[2/2] Helper1:  0,40 [NC]  <<<<<
+[4/4] Helper2:  0,41 [NC] 
+[6/7] Helper3:  0,39
+
+Correct Answer
+
+15 - desporto - What TV show takes place at the Dunder Mifflin Paper Company in Scranton, PA?
+Helper1: -
+Helper2: [-0,08]
+Helper3: [-0,20;  0,38]
+
+[3/3] Helper1:  0,60 [NC] 
+[4/4] Helper2:  0,38 [NC]  <<<<<
+[6/7] Helper3:  0,40
+
+Correct Answer
+
+---------------------
+Punctuation: 14
+

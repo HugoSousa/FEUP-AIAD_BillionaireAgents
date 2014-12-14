@@ -1,0 +1,169 @@
+
+1 - desporto - The Web site "ivillage.com" specifically targets what audience?
+Helper1: -
+Helper2: -
+Helper3: [ 0,20]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[0/0] Helper3:  0,06 <<<<<
+
+Correct Answer
+
+2 - desporto - Which of these pies would most likely not be served a la mode?
+Helper1: -
+Helper2: -
+Helper3: [ 0,33;  0,20]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[1/1] Helper3:  0,13 <<<<<
+
+Correct Answer
+
+3 - desporto - Framboise is the French word for which fruit?
+Helper1: -
+Helper2: -
+Helper3: [ 0,50;  0,20]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,00
+[2/2] Helper3:  0,21 <<<<<
+
+Wrong Answer
+
+4 - desporto - What is the real first name of the basketball legend known as "Dr. J"?
+Helper1: -
+Helper2: [ 0,20]
+Helper3: [ 0,60;  0,20]
+
+[0/0] Helper1:  0,00
+[0/0] Helper2:  0,06
+[2/3] Helper3:  0,15 <<<<<
+
+Wrong Answer
+
+5 - desporto - In the billiards game "nine ball," the balls are racked in what shape?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,67;  0,20]
+
+[0/0] Helper1:  0,06
+[0/0] Helper2:  0,06
+[2/4] Helper3:  0,08 <<<<<
+
+Wrong Answer
+
+6 - desporto - Which of these is slang meaning "a very important person"?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,71;  0,20]
+
+[0/0] Helper1:  0,06
+[0/0] Helper2:  0,06 <<<<<
+[2/5] Helper3:  0,00
+
+Correct Answer
+
+7 - desporto - According to a saying, what kind of person "sees the glass as half full"?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,75;  0,20]
+
+[0/0] Helper1:  0,06
+[1/1] Helper2:  0,11 <<<<<
+[2/5] Helper3:  0,01
+
+Correct Answer
+
+8 - desporto - What sporting event's headquarters is located in Wasilla, Alaska?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,78;  0,20]
+
+[0/0] Helper1:  0,06
+[2/2] Helper2:  0,17 <<<<<
+[2/5] Helper3:  0,01
+
+Correct Answer
+
+9 - desporto - Who was the first member of the Republican Party to become a U.S. president?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,80;  0,20]
+
+[0/0] Helper1:  0,06
+[3/3] Helper2:  0,22 <<<<<
+[2/5] Helper3:  0,01
+
+Correct Answer
+
+10 - desporto - What would someone suffering from claustrophobia have a hard time doing?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,64;  1,00]
+
+[0/0] Helper1:  0,06
+[4/4] Helper2:  0,28 <<<<<
+[2/5] Helper3:  0,11
+
+Wrong Answer
+
+11 - desporto - In 2007, Congress passed legislation to raise the hourly minimum wage to what?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,50;  1,00]
+
+[0/0] Helper1:  0,06
+[4/5] Helper2:  0,20 <<<<<
+[2/5] Helper3:  0,09
+
+Wrong Answer
+
+12 - desporto - The first Sino-Japanese war began in 1894 between Japan and what other nation?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,54;  1,00]
+
+[0/0] Helper1:  0,06
+[4/6] Helper2:  0,11 <<<<<
+[2/5] Helper3:  0,09
+
+Correct Answer
+
+13 - desporto - The squeeze play is a strategic move used in what sport?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,43;  0,71]
+
+[0/0] Helper1:  0,06
+[5/7] Helper2:  0,17 <<<<<
+[2/5] Helper3:  0,03
+
+Wrong Answer
+
+14 - desporto - Whose video was the first to be played on MTV?
+Helper1: [ 0,20]
+Helper2: [ 0,20]
+Helper3: [ 0,33;  0,71]
+
+[0/0] Helper1:  0,06
+[5/8] Helper2:  0,09 <<<<<
+[2/5] Helper3:  0,02
+
+Wrong Answer
+
+15 - desporto - Which term describes any evidence directly exposing a criminal suspect?
+Helper1: [ 0,20]
+Helper2: [ 1,00]
+Helper3: [ 0,38;  0,71]
+
+[0/0] Helper1:  0,06
+[5/9] Helper2:  0,25 <<<<<
+[2/5] Helper3:  0,03
+
+Wrong Answer
+
+---------------------
+Punctuation: 7
+
