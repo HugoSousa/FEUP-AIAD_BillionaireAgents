@@ -32,7 +32,7 @@ public class HelperAgent extends Agent {
 
 			ACLMessage msg = blockingReceive();
 			if(msg.getPerformative() == ACLMessage.QUERY_REF) {
-				System.out.println(getLocalName() + " - recebi " + msg.getContent());
+				//System.out.println(getLocalName() + " - recebi " + msg.getContent());
 
 				JSONParser parser=new JSONParser();
 				Map obj;

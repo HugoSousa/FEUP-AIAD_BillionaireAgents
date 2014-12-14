@@ -20,14 +20,14 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 	public FIREPlayerAgent(){
 		super();
 
-		System.out.println("FIRE PLAYER AGENT CONSTRUCTOR");
+		//System.out.println("FIRE PLAYER AGENT CONSTRUCTOR");
 	}
 
 	@Override
 	//processa o conteúdo da questão, de acordo com o modelo
 	public String processQuestion(String category, String question, ArrayList<String> answerOptions) {
 		
-		System.out.println(interactionTrust);
+		//System.out.println(interactionTrust);
 		
 		lastCategory = category;
 		HashMap<AID,  ArrayList<Double>> witnessReputationByHelperCategory = super.askOtherPlayers(category);
@@ -185,7 +185,7 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 		}
 		log.addToLog( list);
 		
-		System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
+		//System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
 		return selectedHelper;
 		
 	}
@@ -193,7 +193,6 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 	@Override
 	//responder a um pedido de feedback relativamente a dada categoria
 	public void answerFeedback(ACLMessage msg){
-		//TODO melhorar encapsulamento
 		String category = msg.getContent();
 		HashMap<String, Object> sendInfo = new HashMap<String, Object>();
 
@@ -205,10 +204,10 @@ public class FIREPlayerAgent extends GenericPlayerAgent{
 			//se nao existe interação direta com o helper para aquela categoria
 			if(helperRatings == null)
 			{
-				System.out.println(getLocalName() + ": NAO TENHO INFORMACAO DO HELPER " + helper.getLocalName());
+				//System.out.println(getLocalName() + ": NAO TENHO INFORMACAO DO HELPER " + helper.getLocalName());
 			}
 			else{
-				System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + helperRatings.size() + " RATINGS");			
+				//System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + helperRatings.size() + " RATINGS");			
 
 				double mean = 0;
 				for (Double a : helperRatings) {

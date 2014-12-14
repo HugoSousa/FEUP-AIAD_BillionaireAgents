@@ -72,7 +72,7 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 
 			double rep = (r_final - s_final)/(r_final + s_final + 2);
 
-			System.out.println("REPUTATION: " + rep);
+			//System.out.println("REPUTATION: " + rep);
 			
 			finalTrust.put(helper, rep);
 
@@ -125,7 +125,7 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 		log.addToLog( list);
 		
 
-		System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
+		//System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
 		return selectedHelper;
 
 	}
@@ -177,7 +177,7 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 
 		//log.addToLog(interactionTrust.get(new HelperCategoryKey(lastHelper, lastCategory)).toString());
 		
-		System.out.println("INTERACTION TRUST: " + interactionTrust.get(new HelperCategoryKey(lastHelper, lastCategory)));
+		//System.out.println("INTERACTION TRUST: " + interactionTrust.get(new HelperCategoryKey(lastHelper, lastCategory)));
 
 	}
 
@@ -195,10 +195,10 @@ public class BETAPlayerAgent extends GenericPlayerAgent{
 			//se nao existe interação direta com o helper para aquela categoria
 			if(helperRatings == null)
 			{
-				System.out.println(getLocalName() + ": NAO TENHO INFORMACAO DO HELPER " + helper.getLocalName());
+				//System.out.println(getLocalName() + ": NAO TENHO INFORMACAO DO HELPER " + helper.getLocalName());
 			}
 			else{
-				System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + helperRatings.getTotalRatings() + " RATINGS");			
+				//System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + helperRatings.getTotalRatings() + " RATINGS");			
 
 				double r = helperRatings.getRating();
 				double s = helperRatings.getTotalRatings() - r;

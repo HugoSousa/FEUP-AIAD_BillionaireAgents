@@ -75,8 +75,8 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 			interactionTrust.put(key, alpha);
 		}
 
-		System.out.println("UPDATE ALFA: " + interactionTrust.get(key));
-		System.out.println("UPDATE ALFA: " + Math.sin(alpha));
+		//System.out.println("UPDATE ALFA: " + interactionTrust.get(key));
+		//System.out.println("UPDATE ALFA: " + Math.sin(alpha));
 
 	}
 
@@ -185,7 +185,7 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 		}
 		log.addToLog( list);
 
-		System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
+		//System.out.println("Escolhi o helper " + selectedHelper.getLocalName());
 		return selectedHelper;
 	}
 
@@ -204,10 +204,10 @@ public class SINALPHAPlayerAgent extends GenericPlayerAgent {
 			//se nao existe interação direta com o helper para aquela categoria
 			if(helperRating == null)
 			{
-				System.out.println(getLocalName() + ": NAO TENHO INFORMACAO DO HELPER " + helper.getLocalName());
+				//System.out.println(getLocalName() + ": NAO TENHO INFORMACAO DO HELPER " + helper.getLocalName());
 			}
 			else{
-				System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + Math.sin(helperRating));			
+				//System.out.println(getLocalName() + ": TENHO INFORMACAO DO HELPER " + helper.getLocalName() + ": " + Math.sin(helperRating));			
 				sendInfo.put(helper.getLocalName(), Math.sin(helperRating));
 			}
 		}

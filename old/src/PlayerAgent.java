@@ -42,7 +42,7 @@ public class PlayerAgent extends Agent{
 			if(msg.getPerformative() == ACLMessage.QUERY_REF) {
 				//pergunta do apresentador
 
-				System.out.println(getLocalName() + "- recebi pergunta:" + msg.getContent());
+				//System.out.println(getLocalName() + "- recebi pergunta:" + msg.getContent());
 
 				JSONParser parser=new JSONParser();
 				Map obj;
@@ -61,7 +61,7 @@ public class PlayerAgent extends Agent{
 				}
 
 				//perguntar tambem aos outros participantes o que acham daquele helper nesta categoria
-				System.out.println("PERGUNTAR A OPINIAO A " + players.size() + " JOGADORES");
+				//System.out.println("PERGUNTAR A OPINIAO A " + players.size() + " JOGADORES");
 				ACLMessage playerMsg = new ACLMessage(ACLMessage.REQUEST);
 				for(AID p: players)
 					playerMsg.addReceiver(p);
@@ -79,7 +79,7 @@ public class PlayerAgent extends Agent{
 				for(int i=0; i < players.size(); i++){
 					ACLMessage playerFeedbackMsg = blockingReceive();
 
-					System.out.println("RECEBI FEEDBACK PLAYER" + playerFeedbackMsg.getContent());
+					//System.out.println("RECEBI FEEDBACK PLAYER" + playerFeedbackMsg.getContent());
 
 					try {
 						obj = (Map)parser.parse(playerFeedbackMsg.getContent());
@@ -91,7 +91,7 @@ public class PlayerAgent extends Agent{
 							String[] values = ((String)obj.get(key)).split("/"); 
 							int positiveAnswers = Integer.parseInt(values[0]);
 							int totalAnswers =  Integer.parseInt(values[1]);
-							System.out.println("AHHH " + helperName + " " + positiveAnswers + " / " + totalAnswers);
+							//System.out.println("AHHH " + helperName + " " + positiveAnswers + " / " + totalAnswers);
 
 							for (AID helperKey : certifiedReputation.keySet()) {
 								if (helperKey.getLocalName().equals(helperName)) {
@@ -132,8 +132,8 @@ public class PlayerAgent extends Agent{
 				send(helpMsg);
 
 				ACLMessage helperAnswer = blockingReceive();
-				if(helperAnswer.getPerformative() == ACLMessage.INFORM)
-					System.out.println(getLocalName() + " - recebi " + helperAnswer.getContent());
+				//if(helperAnswer.getPerformative() == ACLMessage.INFORM)
+					//System.out.println(getLocalName() + " - recebi " + helperAnswer.getContent());
 				//System.out.println("SENDING TO HELPER " + selectedHelper.getLocalName() + ":" + helpMsg.getContent());
 
 
@@ -148,7 +148,7 @@ public class PlayerAgent extends Agent{
 			}
 			else if(msg.getPerformative() == ACLMessage.INFORM_REF){
 				//informação da resposta correta
-				System.out.println(msg.getContent());
+				//System.out.println(msg.getContent());
 				if (msg.getContent().equals("Correct"))
 					interactionTrust.get(selectedHelper).addNewAnswer(lastCategory,true);
 				else 
@@ -186,7 +186,7 @@ public class PlayerAgent extends Agent{
 					e1.printStackTrace();
 				}
 
-				System.out.println("HEY" + out.toString());
+				//System.out.println("HEY" + out.toString());
 				feedbackMsg.setContent(out.toString());
 				send(feedbackMsg);
 
@@ -216,7 +216,7 @@ public class PlayerAgent extends Agent{
 				}
 			}
 
-			System.out.println("E POSSIVEL ESCOLHER ENTRE " + best.size() + " HELPERS");
+			//System.out.println("E POSSIVEL ESCOLHER ENTRE " + best.size() + " HELPERS");
 			//se ha mais que um helper com mesma pontuação, escolher um aleatorio
 			AID selectedHelper = null;
 			if(best.size() > 1){
@@ -286,7 +286,7 @@ public class PlayerAgent extends Agent{
 				else 
 					trust = (wIT * roIT + wCR * roCR) / (roIT + roCR);
 
-				System.out.println("AGENTE-TRUST" + helperKey.getLocalName() + " -> " + trust);
+				//System.out.println("AGENTE-TRUST" + helperKey.getLocalName() + " -> " + trust);
 				trustByHelper.put(helperKey, new Double(trust));
 			}
 			return trustByHelper;

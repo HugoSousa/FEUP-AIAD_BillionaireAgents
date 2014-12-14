@@ -47,9 +47,9 @@ public abstract class GenericPlayerAgent extends Agent{
 				@SuppressWarnings("unchecked")
 				ArrayList<String> answerOptions = (ArrayList<String>) questionFields.get("options");
 
-				System.out.println("CATEGORY: " + category);
+				//System.out.println("CATEGORY: " + category);
 
-				System.out.println(getLocalName() + "- recebi pergunta:" + content);
+				//System.out.println(getLocalName() + "- recebi pergunta:" + content);
 				log.addToLog("");
 				log.addToLog(questionCounter + " - " + category + " - " + question);
 				
@@ -65,7 +65,7 @@ public abstract class GenericPlayerAgent extends Agent{
 				//informação da resposta correta
 				//comparar se respondi bem/mal, recalcular o rating e adicionar no hashmap
 				if(presenterQuestionMsg.getContent().equals("Correct")){
-					System.out.println(getLocalName() + ": My answer was correct");
+					//System.out.println(getLocalName() + ": My answer was correct");
 					punctuation++;
 					helperInfo.get(lastHelper).setRating(helperInfo.get(lastHelper).getRating() + 1);
 					helperInfo.get(lastHelper).setTotalRatings(helperInfo.get(lastHelper).getTotalRatings() + 1);
@@ -73,9 +73,9 @@ public abstract class GenericPlayerAgent extends Agent{
 				}else if(presenterQuestionMsg.getContent().equals("Wrong")){
 					helperInfo.get(lastHelper).setTotalRatings(helperInfo.get(lastHelper).getTotalRatings() + 1);
 					lastAnswerIs(false);
-					System.out.println(getLocalName() + ": My answer was wrong");
+					//System.out.println(getLocalName() + ": My answer was wrong");
 				}else if(presenterQuestionMsg.getContent().equals("Finish")){
-					System.out.println("RECEIVED FINISH");
+					System.out.println(getLocalName() + "-> received finish. Writing to log.");
 					log.addToLog("");
 					log.addToLog("---------------------");
 					log.addToLog("Punctuation: " + punctuation);
@@ -213,14 +213,14 @@ public abstract class GenericPlayerAgent extends Agent{
 		String content = playerFeedbackMsg.getContent();
 
 		if(content.equals("none")){
-			System.out.println(playerFeedbackMsg.getSender().getLocalName() + ": NAO TEM INFO DE NENHUM HELPER");
+			//System.out.println(playerFeedbackMsg.getSender().getLocalName() + ": NAO TEM INFO DE NENHUM HELPER");
 		}
 		else{
 			HashMap<String, Object> helperRatingsFromPlayer = Utils.JSONDecode(content);
 			
 			for (String helperName: helperRatingsFromPlayer.keySet()) {
 				Double rating = (Double) helperRatingsFromPlayer.get(helperName);
-				System.out.println("PARA O  " + playerFeedbackMsg.getSender().getLocalName() +", O HELPER " + helperName + " TEM O RATING DE " + rating);
+				//System.out.println("PARA O  " + playerFeedbackMsg.getSender().getLocalName() +", O HELPER " + helperName + " TEM O RATING DE " + rating);
 				
 				AID helperAID = getHelperAID(helperName);
 				
@@ -262,7 +262,7 @@ public abstract class GenericPlayerAgent extends Agent{
 		
 		ACLMessage helperAnswer = blockingReceive();
 		if(helperAnswer.getPerformative() == ACLMessage.INFORM){
-			System.out.println(getLocalName() + " - recebi " + helperAnswer.getContent());
+			//System.out.println(getLocalName() + " - recebi " + helperAnswer.getContent());
 			return helperAnswer.getContent();
 		}
 		return null;

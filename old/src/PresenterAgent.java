@@ -63,12 +63,12 @@ public class PresenterAgent extends Agent{
 			ACLMessage receiveMsg = blockingReceive();
 			if(receiveMsg.getPerformative() == ACLMessage.INFORM_REF) {
 			
-				System.out.println("verificar player");
+				//System.out.println("verificar player");
 				
 				//verificar se a resposta veio do player correto
 				if(receiveMsg.getSender().equals(players.get(playerTurn))){
 					String playerAnswer = receiveMsg.getContent();
-					System.out.println(getLocalName() + " - recebi resposta " + playerAnswer);
+					//System.out.println(getLocalName() + " - recebi resposta " + playerAnswer);
 					
 					
 					ACLMessage replyAnswer = receiveMsg.createReply();
@@ -142,7 +142,7 @@ public class PresenterAgent extends Agent{
 			DFAgentDescription[] result = DFService.search(this, template);
 			//AID[] agents = new AID[result.length];
 			for (int i=0; i<result.length; i++){
-				System.out.println("PLAYER " + i + " - " + result[i].getName());
+				//System.out.println("PLAYER " + i + " - " + result[i].getName());
 				players.add(result[i].getName());
 			}
 

@@ -50,7 +50,7 @@ public class PresenterAgent extends Agent{
 			String out = Utils.JSONEncode(question);
 
 
-			//System.out.println("PRESENTER SENDING " + out.toString());
+			System.out.println("Presenter asking question " + round + " of game " + game + " to player " + players.get(playerTurn).getLocalName());
 
 			msg.setContent(out);
 			send(msg);
@@ -58,12 +58,12 @@ public class PresenterAgent extends Agent{
 			ACLMessage receiveMsg = blockingReceive();
 			if(receiveMsg.getPerformative() == ACLMessage.INFORM_REF) {
 
-				System.out.println("verificar player");
+				//System.out.println("verificar player");
 
 				//verificar se a resposta veio do player correto
 				if(receiveMsg.getSender().equals(players.get(playerTurn))){
 					String playerAnswer = receiveMsg.getContent();
-					System.out.println(getLocalName() + " - recebi resposta " + playerAnswer);
+					//System.out.println(getLocalName() + " - recebi resposta " + playerAnswer);
 
 
 					ACLMessage replyAnswer = receiveMsg.createReply();
@@ -107,7 +107,8 @@ public class PresenterAgent extends Agent{
 
 		Object[] args = getArguments();
 		if(args != null && args.length > 0) {
-			totalGames = ((Integer) args[0]).intValue();
+			//totalGames = ((Integer) args[0]).intValue();
+			totalGames = Integer.parseInt((String)args[0]);
 		}
 
 		// regista agente no DF
@@ -138,7 +139,7 @@ public class PresenterAgent extends Agent{
 		try {
 			DFAgentDescription[] result = DFService.search(this, template);
 			for (int i=0; i<result.length; i++){
-				System.out.println("PLAYER " + i + " - " + result[i].getName());
+				//System.out.println("PLAYER " + i + " - " + result[i].getName());
 				players.add(result[i].getName());
 			}
 
