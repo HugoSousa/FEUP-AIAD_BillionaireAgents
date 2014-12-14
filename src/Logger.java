@@ -22,7 +22,7 @@ public class Logger {
 	public void writeToFile(){
 		PrintWriter out = null;
 		try {
-			out = new PrintWriter(fileName);
+			out = new PrintWriter(fileName+".txt");
 			out.println(log);
 			out.close();
 		} catch (FileNotFoundException e) {
